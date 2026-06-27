@@ -47,26 +47,13 @@ export default async function DecouvrirPage() {
 
       <section className="section-padding bg-cream">
         <div className="container-wide">
-          <div className="grid items-center gap-12 lg:grid-cols-2">
-            <AnimatedSection>
-              <h2 className="font-serif text-3xl text-forest md:text-4xl">{t("section1Title")}</h2>
-              <div className="mt-6 space-y-4 text-stone leading-relaxed">
-                <p>{t("section1p1")}</p>
-                <p>{t("section1p2")}</p>
-              </div>
-            </AnimatedSection>
-            <AnimatedSection delay={0.2} direction="right">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-                <Image
-                  src="https://l.icdbcdn.com/oh/628060aa-a9f2-46a0-af58-81cab6e551b6.jpg?w=1200"
-                  alt="Piscine du domaine"
-                  fill
-                  className="object-cover"
-                  sizes="50vw"
-                />
-              </div>
-            </AnimatedSection>
-          </div>
+          <AnimatedSection className="mx-auto max-w-3xl">
+            <h2 className="font-serif text-3xl text-forest md:text-4xl">{t("section1Title")}</h2>
+            <div className="mt-6 space-y-4 text-stone leading-relaxed">
+              <p>{t("section1p1")}</p>
+              <p>{t("section1p2")}</p>
+            </div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -74,28 +61,15 @@ export default async function DecouvrirPage() {
 
       <section className="section-padding bg-cream-dark">
         <div className="container-wide">
-          <div className="grid items-center gap-12 lg:grid-cols-2">
-            <AnimatedSection direction="left">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-                <Image
-                  src="https://l.icdbcdn.com/oh/92b6eaa5-e385-4c4f-a8b8-e393225ae8af.jpg?w=1200"
-                  alt="Aires de jeux"
-                  fill
-                  className="object-cover"
-                  sizes="50vw"
-                />
-              </div>
-            </AnimatedSection>
-            <AnimatedSection direction="right" delay={0.2}>
-              <h2 className="font-serif text-3xl text-forest md:text-4xl">{t("facilitiesTitle")}</h2>
-              <div className="mt-6 space-y-4 text-stone leading-relaxed">
-                <p>{t("facilitiesp1")}</p>
-                <p>{t("facilitiesp2")}</p>
-                <p>{t("facilitiesp3")}</p>
-              </div>
-              <Button href="/region" className="mt-8">{tc("exploreRegion")}</Button>
-            </AnimatedSection>
-          </div>
+          <AnimatedSection className="mx-auto max-w-3xl">
+            <h2 className="font-serif text-3xl text-forest md:text-4xl">{t("facilitiesTitle")}</h2>
+            <div className="mt-6 space-y-4 text-stone leading-relaxed">
+              <p>{t("facilitiesp1")}</p>
+              <p>{t("facilitiesp2")}</p>
+              <p>{t("facilitiesp3")}</p>
+            </div>
+            <Button href="/region" className="mt-8">{tc("exploreRegion")}</Button>
+          </AnimatedSection>
         </div>
       </section>
 

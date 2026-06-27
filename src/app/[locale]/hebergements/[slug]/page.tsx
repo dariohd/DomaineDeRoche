@@ -97,16 +97,6 @@ export default async function AccommodationPage({ params }: Props) {
                     </li>
                   ))}
                 </ul>
-
-                {acc.images.length > 1 && (
-                  <div className="mt-10 grid gap-4 sm:grid-cols-2">
-                    {acc.images.slice(1).map((img) => (
-                      <div key={img} className="relative aspect-[4/3] overflow-hidden rounded-xl">
-                        <Image src={img} alt={acc.name} fill className="object-cover" sizes="50vw" />
-                      </div>
-                    ))}
-                  </div>
-                )}
               </AnimatedSection>
             </div>
 

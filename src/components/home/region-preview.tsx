@@ -58,7 +58,7 @@ export function RegionPreview({ spots }: { spots: LocalizedRegionSpot[] }) {
   );
 }
 
-export function RegionGrid({ spots }: { spots: LocalizedRegionSpot[] }) {
+export function RegionGrid({ spots, showImages = false }: { spots: LocalizedRegionSpot[]; showImages?: boolean }) {
   const t = useTranslations("region");
 
   return (
@@ -75,17 +75,19 @@ export function RegionGrid({ spots }: { spots: LocalizedRegionSpot[] }) {
             <motion.div
               key={spot.key}
               variants={staggerItem}
-              className="group overflow-hidden rounded-2xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
+              className="overflow-hidden rounded-2xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
             >
-              <div className="relative aspect-[16/10] overflow-hidden">
-                <Image
-                  src={spot.image}
-                  alt={spot.name}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  sizes="33vw"
-                />
-              </div>
+              {showImages && (
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <Image
+                    src={spot.image}
+                    alt={spot.name}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    sizes="33vw"
+                  />
+                </div>
+              )}
               <div className="p-6">
                 <div className="flex items-center gap-2 text-sm text-gold">
                   <MapPin className="h-4 w-4" />
