@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "siteName": "Domaine de Rochebonne",
+    "tagline": "Gîtes & Château en Charente-Maritime",
+    "description": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique. Accueil personnalisé par William et Johanna."
+  },
+  "nav": {
+    "home": "Accueil",
+    "discover": "Découvrir",
+    "accommodations": "Hébergements",
+    "events": "Événements",
+    "region": "La Région",
+    "contact": "Contact",
+    "book": "Réserver",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "common": {
+    "guests": "personnes",
+    "bedrooms": "chambres",
+    "persons": "personnes",
+    "pers": "pers.",
+    "ch": "ch.",
+    "featured": "Coup de cœur",
+    "privatePool": "Piscine privée",
+    "seeAll": "Voir tout",
+    "from": "À partir de",
+    "onRequest": "Sur demande",
+    "seasonalRates": "Tarifs saisonniers",
+    "checkIn": "Arrivée",
+    "checkOut": "Départ",
+    "petsAllowed": "Animaux acceptés",
+    "freeWifi": "Wi-Fi gratuit",
+    "bookNow": "Réserver maintenant",
+    "requestQuote": "Demander un devis",
+    "contactUs": "Nous contacter",
+    "description": "Description",
+    "highlights": "Points forts",
+    "will": "Will",
+    "johanna": "Johanna",
+    "email": "Email",
+    "address": "Adresse",
+    "copyright": "Tous droits réservés.",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "whatsapp": "WhatsApp",
+    "previousImage": "Image précédente",
+    "nextImage": "Image suivante",
+    "sendMessage": "Envoyer le message",
+    "name": "Nom complet",
+    "message": "Message",
+    "subject": "Sujet",
+    "subjectReservation": "Réservation",
+    "subjectGroup": "Devis groupe",
+    "subjectEvent": "Mariage / Événement",
+    "subjectOther": "Autre question",
+    "sentConfirmation": "Votre client mail va s'ouvrir. Merci de nous contacter, nous vous répondrons rapidement.",
+    "exploreRegion": "Explorer la région",
+    "discoverDomain": "Découvrir le domaine",
+    "allAccommodations": "Tous nos hébergements",
+    "weddingsEvents": "Mariages & événements",
+    "onlineBooking": "Réservation en ligne",
+    "footerAbout": "Ancienne propriété de famille transformée en domaine de vacances. Accueil personnalisé par William et Johanna."
+  },
+  "hero": {
+    "location": "Saint-Just-Luzac, Charente-Maritime",
+    "title": "Maisons de vacances",
+    "titleHighlight": "en Charente-Maritime",
+    "subtitle": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique.",
+    "bookStay": "Réserver votre séjour",
+    "discoverAccommodations": "Découvrir nos hébergements",
+    "statAccommodations": "Hébergements",
+    "statCapacity": "Personnes max.",
+    "statRating": "Note Google",
+    "statBeaches": "Des plages",
+    "readyToGo": "Prêt à partir ?",
+    "findStay": "Trouvez votre séjour idéal",
+    "checkAvailability": "Vérifier les disponibilités"
+  },
+  "highlights": {
+    "sectionLabel": "Le domaine",
+    "title": "Tout ce qu'il faut pour des vacances réussies",
+    "items": {
+      "home": {
+        "title": "10 hébergements indépendants",
+        "description": "Du studio cosy au château privatisé, pour 2 à 68 personnes"
+      },
+      "waves": {
+        "title": "Plages à 10 minutes",
+        "description": "L'océan Atlantique et ses plages de sable fin à portée de main"
+      },
+      "sun": {
+        "title": "2 piscines chauffées",
+        "description": "De mai à septembre, température entre 26°C et 28°C"
+      },
+      "trees": {
+        "title": "Parc clos de 13 000 m²",
+        "description": "Grands jardins arborés, terrasses et barbecues privatifs"
+      },
+      "paw": {
+        "title": "Animaux bienvenus",
+        "description": "Parc sécurisé et plages dog-friendly à proximité"
+      },
+      "shield": {
+        "title": "Domaine entièrement clos",
+        "description": "Sécurité des enfants, aires de jeux et équipements sportifs"
+      }
+    }
+  },
+  "about": {
+    "sectionLabel": "Notre histoire",
+    "title": "Une propriété de famille, un accueil personnel",
+    "p1": "Le Domaine de Rochebonne est notre ancienne propriété de famille en Charente-Maritime, transformée petit à petit en domaine de vacances. On y vit avec Johanna et on s'occupe nous-mêmes de l'accueil.",
+    "p2": "Le domaine se compose d'un château et de 8 gîtes indépendants, tous regroupés dans un grand parc clos de murs de 13 000 m², à 5 à 50 mètres les uns des autres. Pratique pour les groupes qui veulent réserver plusieurs gîtes côte à côte.",
+    "p3": "En tout, le domaine accueille jusqu'à 61 personnes côté gîtes seuls, le château privé en plus, pour 9 hébergements au total.",
+    "parkSize": "13 000 m²",
+    "parkLabel": "de parc clos et arboré",
+    "paymentBanner": "Paiement en 3 fois avec nous, ou en 10 fois avec PayPal · Chèques vacances acceptés · Annulation flexible"
+  },
+  "accommodations": {
+    "sectionLabel": "Nos hébergements",
+    "title": "Trouvez votre séjour",
+    "subtitle": "Du studio cosy au château privatisé, choisissez l'hébergement qui correspond à votre groupe.",
+    "pageTitle": "Tous nos hébergements",
+    "pageSubtitle": "10 maisons indépendantes réparties sur un parc clos de 13 000 m², de 2 à 68 personnes.",
+    "chateau": {
+      "name": "Château 8 chambres avec piscine privée",
+      "shortName": "Le Château",
+      "description": "L'expérience à part du domaine. Château entièrement privatisé avec piscine chauffée sans vis-à-vis, grand salon, bibliothèque et salle de jeux. Idéal pour grandes familles, mariages et retrouvailles.",
+      "highlights": [
+        "Privatisation totale",
+        "Piscine privée chauffée",
+        "8 chambres sur 2 étages",
+        "Domaine séparé du reste"
+      ]
+    },
+    "la-charrue": {
+      "name": "La Charrue — Maison 4 chambres",
+      "shortName": "La Charrue",
+      "description": "Grande maison familiale avec jardin privatif, terrasse et accès aux espaces communs du domaine.",
+      "highlights": [
+        "10 personnes",
+        "4 chambres",
+        "Jardin privatif",
+        "Proche piscine"
+      ]
+    },
+    "le-pressoir": {
+      "name": "Le Pressoir — Maison 3 chambres",
+      "shortName": "Le Pressoir",
+      "description": "Maison de charme pour 8 personnes, parfaite pour un séjour entre amis ou en famille.",
+      "highlights": [
+        "8 personnes",
+        "3 chambres",
+        "Terrasse & barbecue",
+        "Cuisine équipée"
+      ]
+    },
+    "la-cave": {
+      "name": "La Cave — Maison 3 chambres",
+      "shortName": "La Cave",
+      "description": "Maison conviviale pour 6 personnes, au cœur du parc arboré du domaine.",
+      "highlights": [
+        "6 personnes",
+        "3 chambres",
+        "Jardin clos",
+        "Accès piscines"
+      ]
+    },
+    "maison-piscine-privee": {
+      "name": "Maison 4 chambres avec piscine privée",
+      "shortName": "Maison Piscine",
+      "description": "Maison spacieuse avec sa propre piscine privée, pour un séjour premium en toute intimité.",
+      "highlights": [
+        "12 personnes",
+        "Piscine privée",
+        "4 chambres",
+        "Grand jardin"
+      ]
+    },
+    "le-chai": {
+      "name": "Le Chai — Gîte 2 chambres",
+      "shortName": "Le Chai",
+      "description": "Gîte cosy pour 4 personnes, idéal pour un couple ou une petite famille.",
+      "highlights": [
+        "4 personnes",
+        "2 chambres",
+        "Plain-pied",
+        "Terrasse"
+      ]
+    },
+    "la-mangeoire": {
+      "name": "La Mangeoire — Gîte 2 chambres",
+      "shortName": "La Mangeoire",
+      "description": "Ancienne dépendance restaurée avec charme et confort moderne.",
+      "highlights": [
+        "4 personnes",
+        "2 chambres",
+        "Authenticité",
+        "Calme"
+      ]
+    },
+    "le-four-a-pain": {
+      "name": "Le Four à Pain — Gîte 2 chambres",
+      "shortName": "Le Four à Pain",
+      "description": "Gîte de caractère dans une bâtisse historique du domaine.",
+      "highlights": [
+        "4 personnes",
+        "2 chambres",
+        "Pierre apparente",
+        "Jardin"
+      ]
+    },
+    "la-chaumiere": {
+      "name": "La Chaumière — Gîte 1 chambre",
+      "shortName": "La Chaumière",
+      "description": "Petit nid douillet en plain-pied, parfait pour un séjour à deux ou en trio.",
+      "highlights": [
+        "3 personnes",
+        "Plain-pied",
+        "Intimité",
+        "Terrasse"
+      ]
+    },
+    "le-studio": {
+      "name": "Le Studio — 2 personnes",
+      "shortName": "Le Studio",
+      "description": "Hébergement compact et fonctionnel pour un couple.",
+      "highlights": [
+        "2 personnes",
+        "Studio",
+        "Économique",
+        "Accès parc"
+      ]
+    },
+    "pressoir-cave": {
+      "name": "Grand gîte 14 pers. — Le Pressoir & La Cave",
+      "shortName": "Pressoir & Cave",
+      "description": "Combinaison de deux maisons adjacentes pour accueillir un grand groupe tout en gardant des espaces séparés.",
+      "highlights": [
+        "14 personnes",
+        "2 maisons",
+        "Idéal groupes",
+        "Jardins privatifs"
+      ]
+    },
+    "domaine-entier": {
+      "name": "Le domaine de Rochebonne entier",
+      "shortName": "Domaine entier",
+      "description": "Privatisez l'intégralité du domaine pour un événement exceptionnel : mariage, séminaire ou grande réunion familiale.",
+      "highlights": [
+        "Jusqu'à 68 personnes",
+        "Tous les gîtes",
+        "Parc complet",
+        "Sur mesure"
+      ]
+    }
+  },
+  "region": {
+    "sectionLabel": "Charente-Maritime",
+    "title": "Entre océan et campagne",
+    "subtitle": "Plages, île d'Oléron, ostréiculture et patrimoine : tout est accessible en moins de 35 minutes depuis le domaine.",
+    "pageTitle": "La Charente-Maritime",
+    "pageSubtitle": "Entre l'océan Atlantique, l'île d'Oléron et les villages pittoresques du sud-ouest, un territoire riche en découvertes.",
+    "onDomain": "Sur le domaine",
+    "onDomainText": "Pas besoin de partir loin pour s'amuser : 2 piscines chauffées, pétanque, ping-pong, badminton, terrain de foot, aires de jeux pour enfants avec toboggans, bac à sable et balançoires. Le parc de 13 000 m² est entièrement clos.",
+    "spots": {
+      "oleron": {
+        "name": "Île d'Oléron",
+        "distance": "30 min",
+        "description": "La plus grande île de la côte atlantique française : plages sauvages, ports ostréicoles, vélo le long du littoral et villages typiques comme Saint-Georges-d'Oléron."
+      },
+      "rochelle": {
+        "name": "La Rochelle",
+        "distance": "35 min",
+        "description": "Port historique avec ses tours médiévales, le Vieux-Port animé, l'aquarium et le marché couvert. Point de départ idéal pour explorer la Charente-Maritime."
+      },
+      "royan": {
+        "name": "Royan",
+        "distance": "20 min",
+        "description": "Station balnéaire réputée pour ses plages de sable fin, son architecture des années 1950 et ses animations estivales le long de la côte atlantique."
+      },
+      "palmyre": {
+        "name": "Zoo de La Palmyre",
+        "distance": "25 min",
+        "description": "L'un des plus grands zoos d'Europe, niché en pleine forêt de la Coubre. Incontournable en famille, à deux pas des plages de Saint-Palais-sur-Mer."
+      },
+      "marennes": {
+        "name": "Marennes-Oléron",
+        "distance": "15 min",
+        "description": "Capitale de l'huître en Charente-Maritime : parcours ostréicole, dégustations en cabane et marais salants classés au patrimoine régional."
+      },
+      "rochefort": {
+        "name": "Rochefort",
+        "distance": "25 min",
+        "description": "Ville d'art et d'histoire avec la Corderie Royale, l'Hermione et le pont transbordeur. Porte d'entrée vers l'île d'Aix et Fort Boyard."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "Témoignages",
+    "title": "Ce que disent nos clients",
+    "ratingText": "avis",
+    "seeAllGoogle": "Voir tous nos avis sur Google",
+    "items": [
+      {
+        "name": "Yoann Kabas",
+        "date": "Janvier 2025",
+        "text": "Séjour absolument parfait ! Accueillis avec chaleur et professionnalisme par William et Johanna. Le cadre est splendide : grand parc verdoyant, espaces de jeux sécurisés pour les enfants. Le château est très bien équipé, propre et confortable. Nous recommandons vivement !",
+        "source": "Google"
+      },
+      {
+        "name": "Sarah Haoussine",
+        "date": "Janvier 2025",
+        "text": "Venus en plein hiver et nos hôtes ont été au top. Charme du poêle avec DIY de la part de William.",
+        "source": "Google"
+      },
+      {
+        "name": "Valentine Foret-Bruno",
+        "date": "Octobre 2025",
+        "text": "Grande maison agréable et authentique ! De beaux espaces pour un week-end en famille à 15 ! De très belles plages à 20 minutes. Un accueil chaleureux.",
+        "source": "Google"
+      },
+      {
+        "name": "Aurélie Capdevielle",
+        "date": "Octobre 2025",
+        "text": "Séjour de 4 jours enchanteur dans un lieu magnifique ! Le château est central pour visiter la région : marais, île d'Oléron, ostréiculture. On recommande vivement.",
+        "source": "Google"
+      },
+      {
+        "name": "Pascale Beauchamps",
+        "date": "Novembre 2025",
+        "text": "Weekend familial super dans ce château qui a accueilli toute notre famille de 13 personnes. Confort, grandeur des espaces et cadre magnifique.",
+        "source": "Google"
+      },
+      {
+        "name": "Florence",
+        "date": "Octobre 2025",
+        "text": "Séjour très agréable dans un gîte tout confort au milieu d'un très joli parc arboré et clos. Idéal pour les familles et les animaux de compagnie.",
+        "source": "Google"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir pour préparer votre séjour",
+    "items": [
+      {
+        "question": "Comment accéder au Domaine de Rochebonne ?",
+        "answer": "Le domaine se situe à Saint-Just-Luzac (17320), en Charente-Maritime. En voiture : 25 min de Rochefort, 35 min de La Rochelle, 20 min de Royan. En train : gare TGV de La Rochelle (35 min) ou gare de Rochefort (25 min). En avion : aéroport de La Rochelle – Île de Ré (35 min). Un parking gratuit pour plus de 20 véhicules est disponible sur place."
+      },
+      {
+        "question": "Qu'est-ce qui est inclus dans le tarif ?",
+        "answer": "Le tarif comprend l'hébergement entièrement équipé, le jardin privatif avec terrasse et barbecue, l'accès aux 2 piscines chauffées, au parc de 13 000 m², aux aires de jeux et aux équipements sportifs (pétanque, ping-pong, badminton, terrain de foot), le Wi-Fi et le parking gratuit. En option : kits linge de lit (6 à 8 €), serviettes (3 €/pers.), serviette de piscine (4 €)."
+      },
+      {
+        "question": "Les animaux sont-ils acceptés ?",
+        "answer": "Oui, les animaux de compagnie sont les bienvenus. Le parc clos de 13 000 m² offre un espace sécurisé pour vos compagnons. Des plages dog-friendly se trouvent à proximité. Nous vous demandons de garder vos animaux sous surveillance et de nettoyer après eux dans les espaces communs."
+      },
+      {
+        "question": "Les piscines sont-elles chauffées toute l'année ?",
+        "answer": "Nos deux piscines sont chauffées de mai à septembre, avec une température maintenue entre 26°C et 28°C. Hors saison, les piscines restent accessibles mais ne sont pas chauffées."
+      },
+      {
+        "question": "Quelle est la politique d'annulation ?",
+        "answer": "Politique « Super Flexible » : annulation 35 jours ou plus avant l'arrivée → remboursement à 100 %. Entre 25 et 34 jours → remboursement à 50 %. Moins de 25 jours → aucun remboursement. Paiement en 3 fois : 35 % à la réservation, 30 % à 60 jours, solde à 30 jours."
+      },
+      {
+        "question": "Quels sont les horaires d'arrivée et de départ ?",
+        "answer": "Arrivée à partir de 15h00. Départ avant 10h00. Si vous avez besoin d'horaires différents, contactez-nous et nous ferons notre possible pour nous adapter."
+      },
+      {
+        "question": "Quelle est la durée minimum de séjour ?",
+        "answer": "En haute saison (juillet-août), la durée minimum est de 7 nuits. Hors saison, des séjours plus courts sont possibles à partir de 2 nuits selon les disponibilités. Tarifs dégressifs pour les longs séjours : de -16 % à -65 % selon la durée."
+      },
+      {
+        "question": "Peut-on réserver plusieurs gîtes pour un groupe ?",
+        "answer": "Absolument, c'est l'un des points forts du domaine. Avec 10 gîtes indépendants et un château, nous pouvons accueillir de 2 à 68 personnes. Chaque famille a son propre logement avec jardin privatif, tout en partageant les espaces communs. Contactez-nous pour un devis groupe personnalisé."
+      },
+      {
+        "question": "Le domaine est-il adapté pour un mariage ou un événement ?",
+        "answer": "Oui, le Domaine de Rochebonne est idéal pour les mariages, séminaires et événements. Nous pouvons accueillir jusqu'à 80 personnes avec hébergement sur place. Le parc de 13 000 m² et les deux piscines offrent un cadre exceptionnel pour les cérémonies et réceptions."
+      },
+      {
+        "question": "Quelles activités à proximité ?",
+        "answer": "Sur le domaine : 2 piscines chauffées, pétanque, ping-pong, badminton, terrain de foot, aires de jeux. À proximité (10-30 min) : plages de l'Atlantique, Île d'Oléron, route des huîtres de Marennes, Zoo de La Palmyre, Fort Louvois, Corderie Royale de Rochefort, La Rochelle, Mornac-sur-Seudre. Sports nautiques : kayak, surf, voile, char à voile."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt pour vos prochaines vacances ?",
+    "subtitle": "Réservez en ligne ou contactez William et Johanna pour un devis personnalisé groupe ou événement.",
+    "bookOnline": "Réserver en ligne",
+    "requestQuote": "Demander un devis"
+  },
+  "discover": {
+    "heroLabel": "Notre domaine",
+    "heroTitle": "Un havre de paix entre océan et campagne",
+    "section1Title": "Nos hébergements de charme",
+    "section1p1": "Nos maisons de vacances, situées sur de vastes terrains avec piscines, aires de jeux et plus, sont à votre disposition. À seulement 5 km de l'Atlantique en Charente-Maritime, Rochebonne propose 10 maisons bien équipées, dont un charmant château, réparties sur 13 000 m² de jardins clos avec deux piscines.",
+    "section1p2": "Chaque gîte dispose d'un jardin privé, d'une terrasse meublée avec barbecue, et d'un accès direct aux grands jardins communs et à une piscine clôturée. Nous proposons également un château entièrement privé avec sa propre piscine et parc.",
+    "facilitiesTitle": "Installations & équipements",
+    "facilitiesp1": "Les installations sur place comprennent une aire de jeux pour enfants avec fort en bois, bac à sable, balançoires, jeux, filet de badminton et terrain de football.",
+    "facilitiesp2": "La propriété est entièrement clôturée, garantissant la sécurité des enfants pendant que les parents se détendent. Une connexion Wi-Fi rapide et fiable est disponible dans tout l'établissement.",
+    "facilitiesp3": "Le Domaine de Rochebonne est proche de villes pittoresques comme La Rochelle, Rochefort, Royan, Saintes et Saint-Palais-sur-Mer, toutes facilement accessibles en voiture.",
+    "hostsTitle": "William & Johanna",
+    "hostsText": "Nous habitons sur place et assurons nous-mêmes l'accueil de nos visiteurs. À votre arrivée, nous vous faisons visiter le domaine et restons disponibles tout au long de votre séjour pour répondre à vos questions."
+  },
+  "events": {
+    "heroLabel": "Événements",
+    "heroTitle": "Un lieu d'exception pour vos moments inoubliables",
+    "heroSubtitle": "Mariages, séminaires, anniversaires : accueillez jusqu'à 80 personnes avec hébergement sur place dans un cadre unique.",
+    "sectionTitle": "Votre événement, notre domaine",
+    "sectionSubtitle": "Le parc clos de 13 000 m², les deux piscines et la diversité des hébergements font du Domaine de Rochebonne un lieu idéal pour célébrer en grand.",
+    "capacityTitle": "Capacité & hébergement",
+    "capacityItems": [
+      "Jusqu'à 80 personnes pour un événement avec hébergement",
+      "Château privatisable pour 15 à 20 personnes",
+      "10 hébergements indépendants pour les familles",
+      "Parc de 13 000 m² pour cérémonies en plein air",
+      "Parking gratuit pour plus de 20 véhicules"
+    ],
+    "quoteTitle": "Devis sur mesure",
+    "quoteText": "Chaque événement est unique. Contactez William et Johanna pour discuter de votre projet et recevoir une proposition adaptée à vos besoins.",
+    "types": {
+      "wedding": {
+        "title": "Mariages",
+        "description": "Un cadre exceptionnel pour votre jour J : parc de 13 000 m², deux piscines, château privatisable et hébergement pour tous vos invités sur place."
+      },
+      "seminar": {
+        "title": "Séminaires & team building",
+        "description": "Espaces modulables pour vos réunions d'entreprise, avec hébergement de 2 à 68 personnes et équipements sportifs pour vos activités de groupe."
+      },
+      "birthday": {
+        "title": "Anniversaires & fêtes",
+        "description": "Réunissez famille et amis dans un cadre privé. Plusieurs gîtes adjacents permettent à chaque famille de garder son intimité."
+      },
+      "privatization": {
+        "title": "Privatisation du domaine",
+        "description": "Réservez l'intégralité du domaine pour un événement sur mesure. Devis personnalisé selon vos besoins et le nombre de participants."
+      }
+    }
+  },
+  "contact": {
+    "title": "Parlons de votre séjour",
+    "subtitle": "Une question, un devis groupe ou un projet d'événement ? William et Johanna vous répondent personnellement.",
+    "hostsTitle": "William & Johanna",
+    "hostsText": "Nous habitons sur le domaine et assurons l'accueil de tous nos visiteurs. N'hésitez pas à nous appeler directement.",
+    "formTitle": "Envoyez-nous un message",
+    "formSent": "Votre client mail va s'ouvrir. Merci de nous contacter, nous vous répondrons rapidement."
+  },
+  "reservation": {
+    "title": "Réservez votre séjour",
+    "subtitle": "Envoyez-nous votre demande de réservation. William et Johanna vous répondront rapidement pour confirmer les disponibilités.",
+    "cardTitle": "Demande de réservation",
+    "cardText": "Paiement en 3 fois · Annulation flexible · Réponse sous 24 h",
+    "formIntro": "Remplissez le formulaire ci-dessous et nous vous recontacterons pour confirmer votre séjour.",
+    "preferPhone": "Vous préférez réserver par téléphone ou avez un projet groupe ? Contactez William au",
+    "accommodationLabel": "Hébergement souhaité",
+    "arrivalLabel": "Date d'arrivée",
+    "departureLabel": "Date de départ",
+    "guestsLabel": "Nombre de personnes",
+    "submitRequest": "Envoyer ma demande"
+  },
+  "legal": {
+    "mentions": {
+      "title": "Mentions légales",
+      "sections": [
+        {
+          "title": "Éditeur du site",
+          "content": "Domaine de Rochebonne\nDomaine de Rochebonne\n17320 Saint-Just-Luzac\nEmail : info@domainederochebonne.com\nTéléphone : +33 7 66 38 46 44"
+        },
+        {
+          "title": "Hébergement",
+          "content": "Ce site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis."
+        },
+        {
+          "title": "Propriété intellectuelle",
+          "content": "L'ensemble du contenu de ce site (textes, images, logos) est la propriété du Domaine de Rochebonne. Toute reproduction est interdite sans autorisation préalable."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": "Le Domaine de Rochebonne s'engage à protéger la vie privée des utilisateurs de son site internet https://ledomainederochebonne.com."
+        },
+        {
+          "title": "Données collectées",
+          "content": "Nous collectons uniquement les données que vous nous transmettez volontairement via le formulaire de contact (nom, email, message) ou lors d'une réservation en ligne."
+        },
+        {
+          "title": "Utilisation des données",
+          "content": "Vos données sont utilisées exclusivement pour répondre à vos demandes, gérer vos réservations et améliorer nos services. Elles ne sont jamais vendues à des tiers."
+        },
+        {
+          "title": "Vos droits",
+          "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous à info@domainederochebonne.com."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "siteName": "Domaine de Rochebonne",
+    "tagline": "Holiday Cottages & Château in Charente-Maritime",
+    "description": "Private château and 9 independent holiday cottages in a 13,000 m² enclosed park, 10 minutes from the Atlantic beaches. Personal welcome from William and Johanna."
+  },
+  "nav": {
+    "home": "Home",
+    "discover": "Discover",
+    "accommodations": "Accommodations",
+    "events": "Events",
+    "region": "The Region",
+    "contact": "Contact",
+    "book": "Book",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "common": {
+    "guests": "guests",
+    "bedrooms": "bedrooms",
+    "persons": "guests",
+    "pers": "guests",
+    "ch": "beds",
+    "featured": "Featured",
+    "privatePool": "Private pool",
+    "seeAll": "See all",
+    "from": "From",
+    "onRequest": "On request",
+    "seasonalRates": "Seasonal rates",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "petsAllowed": "Pets allowed",
+    "freeWifi": "Free Wi-Fi",
+    "bookNow": "Book now",
+    "requestQuote": "Request a quote",
+    "contactUs": "Contact us",
+    "description": "Description",
+    "highlights": "Highlights",
+    "will": "Will",
+    "johanna": "Johanna",
+    "email": "Email",
+    "address": "Address",
+    "copyright": "All rights reserved.",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "whatsapp": "WhatsApp",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "sendMessage": "Send message",
+    "name": "Full name",
+    "message": "Message",
+    "subject": "Subject",
+    "subjectReservation": "Booking",
+    "subjectGroup": "Group quote",
+    "subjectEvent": "Wedding / Event",
+    "subjectOther": "Other question",
+    "sentConfirmation": "Your email client will open. Thank you for reaching out — we will reply shortly.",
+    "exploreRegion": "Explore the region",
+    "discoverDomain": "Discover the estate",
+    "allAccommodations": "All our accommodations",
+    "weddingsEvents": "Weddings & events",
+    "onlineBooking": "Online booking",
+    "footerAbout": "A former family estate turned into a holiday domain. Personal welcome from William and Johanna."
+  },
+  "hero": {
+    "location": "Saint-Just-Luzac, Charente-Maritime",
+    "title": "Holiday homes",
+    "titleHighlight": "in Charente-Maritime",
+    "subtitle": "Private château and 9 independent cottages in a 13,000 m² enclosed park, 10 minutes from the Atlantic beaches.",
+    "bookStay": "Book your stay",
+    "discoverAccommodations": "Discover our accommodations",
+    "statAccommodations": "Accommodations",
+    "statCapacity": "Max. guests",
+    "statRating": "Google rating",
+    "statBeaches": "From beaches",
+    "readyToGo": "Ready to go?",
+    "findStay": "Find your perfect stay",
+    "checkAvailability": "Check availability"
+  },
+  "highlights": {
+    "sectionLabel": "The estate",
+    "title": "Everything you need for a great holiday",
+    "items": {
+      "home": {
+        "title": "10 independent accommodations",
+        "description": "From a cosy studio to a private château, for 2 to 68 guests"
+      },
+      "waves": {
+        "title": "Beaches 10 minutes away",
+        "description": "The Atlantic Ocean and its sandy beaches within easy reach"
+      },
+      "sun": {
+        "title": "2 heated swimming pools",
+        "description": "From May to September, water temperature between 26°C and 28°C"
+      },
+      "trees": {
+        "title": "13,000 m² enclosed park",
+        "description": "Large wooded gardens, private terraces and barbecues"
+      },
+      "paw": {
+        "title": "Pets welcome",
+        "description": "Secure park and dog-friendly beaches nearby"
+      },
+      "shield": {
+        "title": "Fully enclosed estate",
+        "description": "Safe for children, play areas and sports facilities"
+      }
+    }
+  },
+  "about": {
+    "sectionLabel": "Our story",
+    "title": "A family estate, a personal welcome",
+    "p1": "Domaine de Rochebonne is our former family property in Charente-Maritime, gradually transformed into a holiday estate. We live here with Johanna and personally welcome every guest.",
+    "p2": "The estate comprises a château and 8 independent cottages, all gathered within a walled park of 13,000 m², spaced 5 to 50 metres apart. Ideal for groups booking several cottages side by side.",
+    "p3": "In total, the estate accommodates up to 61 guests in the cottages alone, plus the private château, for 9 accommodations in all.",
+    "parkSize": "13,000 m²",
+    "parkLabel": "of enclosed, wooded parkland",
+    "paymentBanner": "Pay in 3 instalments with us, or in 10 with PayPal · Holiday vouchers accepted · Flexible cancellation"
+  },
+  "accommodations": {
+    "sectionLabel": "Our accommodations",
+    "title": "Find your stay",
+    "subtitle": "From a cosy studio to a private château, choose the accommodation that suits your group.",
+    "pageTitle": "All our accommodations",
+    "pageSubtitle": "10 independent houses spread across a 13,000 m² enclosed park, from 2 to 68 guests.",
+    "chateau": {
+      "name": "8-bedroom château with private pool",
+      "shortName": "The Château",
+      "description": "The standout experience of the estate. Fully private château with a heated pool with no overlooking neighbours, large living room, library and games room. Ideal for large families, weddings and reunions.",
+      "highlights": [
+        "Full privatisation",
+        "Private heated pool",
+        "8 bedrooms over 2 floors",
+        "Separate from the rest of the estate"
+      ]
+    },
+    "la-charrue": {
+      "name": "La Charrue — 4-bedroom house",
+      "shortName": "La Charrue",
+      "description": "Large family house with private garden, terrace and access to the estate's shared facilities.",
+      "highlights": [
+        "10 guests",
+        "4 bedrooms",
+        "Private garden",
+        "Close to the pool"
+      ]
+    },
+    "le-pressoir": {
+      "name": "Le Pressoir — 3-bedroom house",
+      "shortName": "Le Pressoir",
+      "description": "Charming house for 8 guests, perfect for a stay with friends or family.",
+      "highlights": [
+        "8 guests",
+        "3 bedrooms",
+        "Terrace & barbecue",
+        "Fully equipped kitchen"
+      ]
+    },
+    "la-cave": {
+      "name": "La Cave — 3-bedroom house",
+      "shortName": "La Cave",
+      "description": "Welcoming house for 6 guests, at the heart of the estate's wooded park.",
+      "highlights": [
+        "6 guests",
+        "3 bedrooms",
+        "Enclosed garden",
+        "Pool access"
+      ]
+    },
+    "maison-piscine-privee": {
+      "name": "4-bedroom house with private pool",
+      "shortName": "Pool House",
+      "description": "Spacious house with its own private pool, for a premium stay in complete privacy.",
+      "highlights": [
+        "12 guests",
+        "Private pool",
+        "4 bedrooms",
+        "Large garden"
+      ]
+    },
+    "le-chai": {
+      "name": "Le Chai — 2-bedroom cottage",
+      "shortName": "Le Chai",
+      "description": "Cosy cottage for 4 guests, ideal for a couple or small family.",
+      "highlights": [
+        "4 guests",
+        "2 bedrooms",
+        "Single level",
+        "Terrace"
+      ]
+    },
+    "la-mangeoire": {
+      "name": "La Mangeoire — 2-bedroom cottage",
+      "shortName": "La Mangeoire",
+      "description": "Former outbuilding restored with charm and modern comfort.",
+      "highlights": [
+        "4 guests",
+        "2 bedrooms",
+        "Authentic character",
+        "Peaceful setting"
+      ]
+    },
+    "le-four-a-pain": {
+      "name": "Le Four à Pain — 2-bedroom cottage",
+      "shortName": "Le Four à Pain",
+      "description": "Character cottage in a historic building on the estate.",
+      "highlights": [
+        "4 guests",
+        "2 bedrooms",
+        "Exposed stone",
+        "Garden"
+      ]
+    },
+    "la-chaumiere": {
+      "name": "La Chaumière — 1-bedroom cottage",
+      "shortName": "La Chaumière",
+      "description": "Cosy single-level retreat, perfect for two or a party of three.",
+      "highlights": [
+        "3 guests",
+        "Single level",
+        "Intimate setting",
+        "Terrace"
+      ]
+    },
+    "le-studio": {
+      "name": "Le Studio — 2 guests",
+      "shortName": "Le Studio",
+      "description": "Compact, functional accommodation for a couple.",
+      "highlights": [
+        "2 guests",
+        "Studio",
+        "Great value",
+        "Park access"
+      ]
+    },
+    "pressoir-cave": {
+      "name": "Large cottage 14 guests — Le Pressoir & La Cave",
+      "shortName": "Pressoir & Cave",
+      "description": "Combination of two adjacent houses to host a large group while keeping separate living spaces.",
+      "highlights": [
+        "14 guests",
+        "2 houses",
+        "Ideal for groups",
+        "Private gardens"
+      ]
+    },
+    "domaine-entier": {
+      "name": "The entire Domaine de Rochebonne",
+      "shortName": "Full estate",
+      "description": "Privatise the entire estate for an exceptional event: wedding, seminar or large family gathering.",
+      "highlights": [
+        "Up to 68 guests",
+        "All cottages",
+        "Full park",
+        "Tailor-made"
+      ]
+    }
+  },
+  "region": {
+    "sectionLabel": "Charente-Maritime",
+    "title": "Between ocean and countryside",
+    "subtitle": "Beaches, Île d'Oléron, oyster farming and heritage: everything is within 35 minutes of the estate.",
+    "pageTitle": "Charente-Maritime",
+    "pageSubtitle": "Between the Atlantic Ocean, Île d'Oléron and the picturesque villages of south-west France, a region full of discoveries.",
+    "onDomain": "On the estate",
+    "onDomainText": "No need to go far to have fun: 2 heated pools, pétanque, ping-pong, badminton, football pitch, children's play areas with slides, sandpit and swings. The 13,000 m² park is fully enclosed.",
+    "spots": {
+      "oleron": {
+        "name": "Île d'Oléron",
+        "distance": "30 min",
+        "description": "The largest island on France's Atlantic coast: wild beaches, oyster ports, cycling along the shoreline and typical villages such as Saint-Georges-d'Oléron."
+      },
+      "rochelle": {
+        "name": "La Rochelle",
+        "distance": "35 min",
+        "description": "Historic port with its medieval towers, lively Old Port, aquarium and covered market. An ideal starting point for exploring Charente-Maritime."
+      },
+      "royan": {
+        "name": "Royan",
+        "distance": "20 min",
+        "description": "Renowned seaside resort with fine sandy beaches, 1950s architecture and summer events along the Atlantic coast."
+      },
+      "palmyre": {
+        "name": "La Palmyre Zoo",
+        "distance": "25 min",
+        "description": "One of Europe's largest zoos, nestled in the Coubre forest. A must for families, just steps from the beaches of Saint-Palais-sur-Mer."
+      },
+      "marennes": {
+        "name": "Marennes-Oléron",
+        "distance": "15 min",
+        "description": "The oyster capital of Charente-Maritime: oyster trail, tastings in cabanes and salt marshes listed as regional heritage."
+      },
+      "rochefort": {
+        "name": "Rochefort",
+        "distance": "25 min",
+        "description": "City of art and history with the Corderie Royale, the Hermione and the transporter bridge. Gateway to Île d'Aix and Fort Boyard."
+      }
+    }
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonials",
+    "title": "What our guests say",
+    "ratingText": "reviews",
+    "seeAllGoogle": "See all our reviews on Google",
+    "items": [
+      {
+        "name": "Yoann Kabas",
+        "date": "Janvier 2025",
+        "text": "An absolutely perfect stay! Welcomed with warmth and professionalism by William and Johanna. The setting is splendid: a large green park, secure play areas for children. The château is very well equipped, clean and comfortable. We highly recommend it!",
+        "source": "Google"
+      },
+      {
+        "name": "Sarah Haoussine",
+        "date": "Janvier 2025",
+        "text": "We came in the middle of winter and our hosts were fantastic. The charm of the wood stove, with a little DIY help from William.",
+        "source": "Google"
+      },
+      {
+        "name": "Valentine Foret-Bruno",
+        "date": "Octobre 2025",
+        "text": "A lovely, authentic large house! Beautiful spaces for a family weekend of 15. Stunning beaches 20 minutes away. A warm welcome.",
+        "source": "Google"
+      },
+      {
+        "name": "Aurélie Capdevielle",
+        "date": "Octobre 2025",
+        "text": "An enchanting 4-day stay in a magnificent place! The château is perfectly located for exploring the region: marshes, Île d'Oléron, oyster farming. We highly recommend it.",
+        "source": "Google"
+      },
+      {
+        "name": "Pascale Beauchamps",
+        "date": "Novembre 2025",
+        "text": "A wonderful family weekend in this château that hosted our whole family of 13. Comfort, spacious rooms and a magnificent setting.",
+        "source": "Google"
+      },
+      {
+        "name": "Florence",
+        "date": "Octobre 2025",
+        "text": "A very pleasant stay in a fully equipped cottage in the middle of a beautiful enclosed, wooded park. Ideal for families and pets.",
+        "source": "Google"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know to plan your stay",
+    "items": [
+      {
+        "question": "How do I get to Domaine de Rochebonne?",
+        "answer": "The estate is located in Saint-Just-Luzac (17320), Charente-Maritime. By car: 25 min from Rochefort, 35 min from La Rochelle, 20 min from Royan. By train: La Rochelle TGV station (35 min) or Rochefort station (25 min). By plane: La Rochelle – Île de Ré airport (35 min). Free parking for over 20 vehicles is available on site."
+      },
+      {
+        "question": "What is included in the rate?",
+        "answer": "The rate includes fully equipped accommodation, a private garden with terrace and barbecue, access to 2 heated pools, the 13,000 m² park, play areas and sports facilities (pétanque, ping-pong, badminton, football pitch), Wi-Fi and free parking. Optional extras: bed linen kits (€6–8), towels (€3/person), pool towel (€4)."
+      },
+      {
+        "question": "Are pets allowed?",
+        "answer": "Yes, pets are welcome. The 13,000 m² enclosed park provides a secure space for your companions. Dog-friendly beaches are nearby. We ask that you keep your pets under supervision and clean up after them in shared areas."
+      },
+      {
+        "question": "Are the pools heated all year round?",
+        "answer": "Our two pools are heated from May to September, with water temperature maintained between 26°C and 28°C. Out of season, the pools remain accessible but are not heated."
+      },
+      {
+        "question": "What is the cancellation policy?",
+        "answer": "Super Flexible policy: cancellation 35 days or more before arrival → 100% refund. Between 25 and 34 days → 50% refund. Less than 25 days → no refund. Payment in 3 instalments: 35% on booking, 30% at 60 days, balance at 30 days."
+      },
+      {
+        "question": "What are the check-in and check-out times?",
+        "answer": "Check-in from 3:00 pm. Check-out before 10:00 am. If you need different times, contact us and we will do our best to accommodate you."
+      },
+      {
+        "question": "What is the minimum stay?",
+        "answer": "In high season (July–August), the minimum stay is 7 nights. Out of season, shorter stays are possible from 2 nights depending on availability. Reduced rates for longer stays: from -16% to -65% depending on duration."
+      },
+      {
+        "question": "Can we book several cottages for a group?",
+        "answer": "Absolutely — it is one of the estate's strengths. With 10 independent cottages and a château, we can accommodate from 2 to 68 guests. Each family has its own accommodation with a private garden, while sharing common areas. Contact us for a personalised group quote."
+      },
+      {
+        "question": "Is the estate suitable for a wedding or event?",
+        "answer": "Yes, Domaine de Rochebonne is ideal for weddings, seminars and events. We can host up to 80 guests with on-site accommodation. The 13,000 m² park and two pools provide an exceptional setting for ceremonies and receptions."
+      },
+      {
+        "question": "What activities are nearby?",
+        "answer": "On the estate: 2 heated pools, pétanque, ping-pong, badminton, football pitch, play areas. Nearby (10–30 min): Atlantic beaches, Île d'Oléron, Marennes oyster route, La Palmyre Zoo, Fort Louvois, Rochefort Corderie Royale, La Rochelle, Mornac-sur-Seudre. Water sports: kayaking, surfing, sailing, sand yachting."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for your next holiday?",
+    "subtitle": "Book online or contact William and Johanna for a personalised group or event quote.",
+    "bookOnline": "Book online",
+    "requestQuote": "Request a quote"
+  },
+  "discover": {
+    "heroLabel": "Our estate",
+    "heroTitle": "A peaceful haven between ocean and countryside",
+    "section1Title": "Our charming accommodations",
+    "section1p1": "Our holiday homes, set on spacious grounds with pools, play areas and more, are at your disposal. Just 5 km from the Atlantic in Charente-Maritime, Rochebonne offers 10 well-equipped houses, including a charming château, spread across 13,000 m² of enclosed gardens with two pools.",
+    "section1p2": "Each cottage has a private garden, a furnished terrace with barbecue, and direct access to the shared gardens and a fenced pool. We also offer a fully private château with its own pool and grounds.",
+    "facilitiesTitle": "Facilities & amenities",
+    "facilitiesp1": "On-site facilities include a children's play area with wooden fort, sandpit, swings, games, badminton net and football pitch.",
+    "facilitiesp2": "The property is fully fenced, ensuring children's safety while parents relax. Fast, reliable Wi-Fi is available throughout the estate.",
+    "facilitiesp3": "Domaine de Rochebonne is close to picturesque towns such as La Rochelle, Rochefort, Royan, Saintes and Saint-Palais-sur-Mer, all easily accessible by car.",
+    "hostsTitle": "William & Johanna",
+    "hostsText": "We live on site and personally welcome all our guests. On arrival, we show you around the estate and remain available throughout your stay to answer any questions."
+  },
+  "events": {
+    "heroLabel": "Events",
+    "heroTitle": "An exceptional venue for unforgettable moments",
+    "heroSubtitle": "Weddings, seminars, birthdays: host up to 80 guests with on-site accommodation in a unique setting.",
+    "sectionTitle": "Your event, our estate",
+    "sectionSubtitle": "The 13,000 m² enclosed park, two pools and variety of accommodations make Domaine de Rochebonne an ideal place to celebrate in style.",
+    "capacityTitle": "Capacity & accommodation",
+    "capacityItems": [
+      "Up to 80 guests for an event with on-site accommodation",
+      "Château available for privatisation for 15 to 20 guests",
+      "10 independent accommodations for families",
+      "13,000 m² park for outdoor ceremonies",
+      "Free parking for over 20 vehicles"
+    ],
+    "quoteTitle": "Tailor-made quote",
+    "quoteText": "Every event is unique. Contact William and Johanna to discuss your project and receive a proposal tailored to your needs.",
+    "types": {
+      "wedding": {
+        "title": "Weddings",
+        "description": "An exceptional setting for your big day: 13,000 m² park, two pools, privatisable château and accommodation for all your guests on site."
+      },
+      "seminar": {
+        "title": "Seminars & team building",
+        "description": "Flexible spaces for corporate meetings, with accommodation for 2 to 68 guests and sports facilities for group activities."
+      },
+      "birthday": {
+        "title": "Birthdays & celebrations",
+        "description": "Bring family and friends together in a private setting. Several adjacent cottages allow each family to keep their privacy."
+      },
+      "privatization": {
+        "title": "Full estate privatisation",
+        "description": "Book the entire estate for a tailor-made event. Personalised quote based on your needs and number of guests."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's talk about your stay",
+    "subtitle": "A question, a group quote or an event project? William and Johanna will reply personally.",
+    "hostsTitle": "William & Johanna",
+    "hostsText": "We live on the estate and welcome all our guests in person. Feel free to call us directly.",
+    "formTitle": "Send us a message",
+    "formSent": "Your email client will open. Thank you for reaching out — we will reply shortly."
+  },
+  "reservation": {
+    "title": "Book your stay",
+    "subtitle": "Send us your booking request. William and Johanna will reply quickly to confirm availability.",
+    "cardTitle": "Booking request",
+    "cardText": "Pay in 3 instalments · Flexible cancellation · Reply within 24 h",
+    "formIntro": "Fill in the form below and we will get back to you to confirm your stay.",
+    "preferPhone": "Prefer to book by phone or planning a group stay? Contact William at",
+    "accommodationLabel": "Preferred accommodation",
+    "arrivalLabel": "Arrival date",
+    "departureLabel": "Departure date",
+    "guestsLabel": "Number of guests",
+    "submitRequest": "Send my request"
+  },
+  "legal": {
+    "mentions": {
+      "title": "Legal notice",
+      "sections": [
+        {
+          "title": "Site publisher",
+          "content": "Domaine de Rochebonne\nDomaine de Rochebonne\n17320 Saint-Just-Luzac\nEmail: info@domainederochebonne.com\nPhone: +33 7 66 38 46 44"
+        },
+        {
+          "title": "Hosting",
+          "content": "This website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States."
+        },
+        {
+          "title": "Intellectual property",
+          "content": "All content on this website (text, images, logos) is the property of Domaine de Rochebonne. Any reproduction is prohibited without prior authorisation."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "title": "Introduction",
+          "content": "Domaine de Rochebonne is committed to protecting the privacy of users of its website https://ledomainederochebonne.com."
+        },
+        {
+          "title": "Data collected",
+          "content": "We only collect data that you voluntarily provide through the contact form (name, email, message) or when making an online booking."
+        },
+        {
+          "title": "Use of data",
+          "content": "Your data is used exclusively to respond to your requests, manage your bookings and improve our services. It is never sold to third parties."
+        },
+        {
+          "title": "Your rights",
+          "content": "Under the GDPR, you have the right to access, rectify and delete your data. To exercise these rights, contact us at info@domainederochebonne.com."
+        }
+      ]
+    }
+  }
+}
