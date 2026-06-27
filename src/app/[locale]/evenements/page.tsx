@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { AnimatedSection } from "@/components/ui/animated-section";
 import { Button } from "@/components/ui/button";
 import { EventTypesGrid } from "@/components/events/event-types-grid";
 import { CtaSection } from "@/components/home/about-preview";
+import { ConditionalImage } from "@/components/ui/conditional-image";
 
 export async function generateMetadata({
   params,
@@ -27,12 +27,14 @@ export default async function EvenementsPage() {
     <>
       <section className="relative flex min-h-[60vh] items-end pt-24">
         <div className="absolute inset-0">
-          <Image
+          <ConditionalImage
             src="https://l.icdbcdn.com/oh/509ecfea-facf-4d85-924d-7e36b8343ddf.jpg?w=1600"
             alt="Château pour événements"
             fill
             className="object-cover"
             sizes="100vw"
+            placeholderLabel={tc("photoPlaceholder")}
+            placeholderVariant="hero"
           />
           <div className="image-overlay absolute inset-0" />
         </div>

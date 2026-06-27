@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { AnimatedSection } from "@/components/ui/animated-section";
 import { Button } from "@/components/ui/button";
+import { ConditionalImage } from "@/components/ui/conditional-image";
 
 export function AboutPreview() {
   const t = useTranslations("about");
@@ -16,12 +16,13 @@ export function AboutPreview() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <AnimatedSection direction="left" className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
-              <Image
+              <ConditionalImage
                 src="https://l.icdbcdn.com/oh/057b5763-a921-4b00-bda1-19658139cb16.jpg?w=1200"
                 alt="Domaine de Rochebonne"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
+                placeholderLabel={tc("photoPlaceholder")}
               />
             </div>
             <motion.div
@@ -71,16 +72,19 @@ export function PaymentBanner() {
 
 export function CtaSection() {
   const t = useTranslations("cta");
+  const tc = useTranslations("common");
 
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
-        <Image
+        <ConditionalImage
           src="https://l.icdbcdn.com/oh/33686df5-bbdf-4652-8d29-2cc7b19c1bd3.jpg?w=1600"
           alt="Domaine de Rochebonne"
           fill
           className="object-cover"
           sizes="100vw"
+          placeholderLabel={tc("photoPlaceholder")}
+          placeholderVariant="hero"
         />
         <div className="absolute inset-0 bg-forest/80" />
       </div>

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { Users, Bed, ArrowUpRight, Droplets } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { LocalizedAccommodation } from "@/lib/data/content";
+import { usePlaceholderImages } from "@/lib/data/images";
 import { AnimatedSection, StaggerContainer, staggerItem } from "@/components/ui/animated-section";
 import { Button } from "@/components/ui/button";
 import { ImagePlaceholder } from "@/components/ui/image-placeholder";
@@ -16,9 +17,10 @@ type Props = {
   showImages?: boolean;
 };
 
-export function AccommodationsGrid({ items, showAll = false, showImages = true }: Props) {
+export function AccommodationsGrid({ items, showAll = false, showImages }: Props) {
   const t = useTranslations("accommodations");
   const tc = useTranslations("common");
+  const displayImages = showImages ?? !usePlaceholderImages;
 
   return (
     <section className="section-padding bg-cream-dark">
@@ -52,7 +54,7 @@ export function AccommodationsGrid({ items, showAll = false, showImages = true }
                 href={`/hebergements/${acc.slug}`}
                 className="group block overflow-hidden rounded-2xl bg-white shadow-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-forest/10"
               >
-                {showImages ? (
+                {displayImages ? (
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
                       src={acc.image}

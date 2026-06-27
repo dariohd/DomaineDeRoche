@@ -20,7 +20,7 @@ export default async function HebergementsPage() {
 
   return (
     <div className="pt-24">
-      <AccommodationsGrid items={accommodations} showAll showImages={false} />
+      <AccommodationsGrid items={accommodations} showAll />
     </div>
   );
 }

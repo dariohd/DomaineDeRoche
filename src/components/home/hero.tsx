@@ -1,11 +1,12 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 import { heroImages, siteConfig } from "@/lib/data/site";
+import { usePlaceholderImages } from "@/lib/data/images";
+import { ConditionalImage } from "@/components/ui/conditional-image";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -22,6 +23,7 @@ export function Hero() {
   }, []);
 
   useEffect(() => {
+    if (usePlaceholderImages) return;
     const timer = setInterval(next, 6000);
     return () => clearInterval(timer);
   }, [next]);
@@ -30,20 +32,22 @@ export function Hero() {
     <section className="relative h-[100svh] min-h-[600px] overflow-hidden">
       <AnimatePresence mode="sync">
         <motion.div
-          key={current}
+          key={usePlaceholderImages ? "placeholder" : current}
           initial={{ opacity: 0, scale: 1.08 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           className="absolute inset-0"
         >
-          <Image
+          <ConditionalImage
             src={heroImages[current]}
             alt="Domaine de Rochebonne"
             fill
             priority={current === 0}
             className="object-cover"
             sizes="100vw"
+            placeholderLabel={tc("photoPlaceholder")}
+            placeholderVariant="hero"
           />
         </motion.div>
       </AnimatePresence>
@@ -99,19 +103,21 @@ export function Hero() {
             ))}
           </motion.div>
 
-          <div className="mt-6 flex justify-center gap-2 md:mt-8">
-            {heroImages.map((_, i) => (
-              <button
-                key={i}
-                type="button"
-                onClick={() => setCurrent(i)}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  i === current ? "w-8 bg-gold" : "w-1.5 bg-cream/40"
-                }`}
-                aria-label={`Slide ${i + 1}`}
-              />
-            ))}
-          </div>
+          {!usePlaceholderImages && (
+            <div className="mt-6 flex justify-center gap-2 md:mt-8">
+              {heroImages.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  onClick={() => setCurrent(i)}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${
+                    i === current ? "w-8 bg-gold" : "w-1.5 bg-cream/40"
+                  }`}
+                  aria-label={`Slide ${i + 1}`}
+                />
+              ))}
+            </div>
+          )}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -132,24 +138,26 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="absolute right-6 top-1/2 z-20 flex -translate-y-1/2 gap-2 md:right-10">
-        <button
-          type="button"
-          onClick={prev}
-          className="rounded-full bg-cream/10 p-3 text-cream backdrop-blur-sm transition-colors hover:bg-cream/20"
-          aria-label={tc("previousImage")}
-        >
-          <ChevronLeft className="h-5 w-5" />
-        </button>
-        <button
-          type="button"
-          onClick={next}
-          className="rounded-full bg-cream/10 p-3 text-cream backdrop-blur-sm transition-colors hover:bg-cream/20"
-          aria-label={tc("nextImage")}
-        >
-          <ChevronRight className="h-5 w-5" />
-        </button>
-      </div>
+      {!usePlaceholderImages && (
+        <div className="absolute right-6 top-1/2 z-20 flex -translate-y-1/2 gap-2 md:right-10">
+          <button
+            type="button"
+            onClick={prev}
+            className="rounded-full bg-cream/10 p-3 text-cream backdrop-blur-sm transition-colors hover:bg-cream/20"
+            aria-label={tc("previousImage")}
+          >
+            <ChevronLeft className="h-5 w-5" />
+          </button>
+          <button
+            type="button"
+            onClick={next}
+            className="rounded-full bg-cream/10 p-3 text-cream backdrop-blur-sm transition-colors hover:bg-cream/20"
+            aria-label={tc("nextImage")}
+          >
+            <ChevronRight className="h-5 w-5" />
+          </button>
+        </div>
+      )}
     </section>
   );
 }

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { Users, Bed, Droplets, Check } from "lucide-react";
@@ -8,6 +7,7 @@ import {
 } from "@/lib/data/content";
 import { AnimatedSection } from "@/components/ui/animated-section";
 import { Button } from "@/components/ui/button";
+import { ConditionalImage } from "@/components/ui/conditional-image";
 import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 
 type Props = {
@@ -38,13 +38,15 @@ export default async function AccommodationPage({ params }: Props) {
   return (
     <>
       <section className="relative h-[60vh] min-h-[400px]">
-        <Image
+        <ConditionalImage
           src={acc.image}
           alt={acc.name}
           fill
           priority
           className="object-cover"
           sizes="100vw"
+          placeholderLabel={t("photoPlaceholder")}
+          placeholderVariant="hero"
         />
         <div className="image-overlay absolute inset-0" />
         <div className="relative z-10 flex h-full items-end pb-12 pt-32">

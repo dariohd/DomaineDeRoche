@@ -1,10 +1,10 @@
-import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { AnimatedSection } from "@/components/ui/animated-section";
 import { Button } from "@/components/ui/button";
 import { FeaturesGrid } from "@/components/home/highlights";
 import { CtaSection } from "@/components/home/about-preview";
 import { getLocalizedHighlights } from "@/lib/data/content";
+import { ConditionalImage } from "@/components/ui/conditional-image";
 import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 
 export async function generateMetadata({
@@ -29,12 +29,14 @@ export default async function DecouvrirPage() {
     <>
       <section className="relative flex min-h-[50vh] items-end pt-24">
         <div className="absolute inset-0">
-          <Image
+          <ConditionalImage
             src="https://l.icdbcdn.com/oh/ef3765af-d04f-4097-ad51-91253d1c80b5.jpg?w=1600"
             alt="Domaine de Rochebonne"
             fill
             className="object-cover"
             sizes="100vw"
+            placeholderLabel={tc("photoPlaceholder")}
+            placeholderVariant="hero"
           />
           <div className="image-overlay absolute inset-0" />
         </div>

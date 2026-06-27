@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import type { LocalizedRegionSpot } from "@/lib/data/content";
+import { usePlaceholderImages } from "@/lib/data/images";
 import { AnimatedSection, StaggerContainer, staggerItem } from "@/components/ui/animated-section";
 import { Button } from "@/components/ui/button";
 import { ImagePlaceholder } from "@/components/ui/image-placeholder";
@@ -13,6 +14,7 @@ import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 export function RegionPreview({ spots }: { spots: LocalizedRegionSpot[] }) {
   const t = useTranslations("region");
   const tc = useTranslations("common");
+  const displayImages = !usePlaceholderImages;
 
   return (
     <section className="section-padding bg-cream">
@@ -34,13 +36,21 @@ export function RegionPreview({ spots }: { spots: LocalizedRegionSpot[] }) {
                 className="group block overflow-hidden rounded-2xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="relative aspect-[16/10] overflow-hidden">
-                  <Image
-                    src={spot.image}
-                    alt={spot.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="33vw"
-                  />
+                  {displayImages ? (
+                    <Image
+                      src={spot.image}
+                      alt={spot.name}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      sizes="33vw"
+                    />
+                  ) : (
+                    <ImagePlaceholder
+                      label={tc("photoPlaceholder")}
+                      aspectClassName="aspect-[16/10]"
+                      className="h-full w-full"
+                    />
+                  )}
                   <div className="absolute inset-0 bg-gradient-to-t from-forest/70 to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="flex items-center gap-1 text-xs text-gold-light">
@@ -59,9 +69,10 @@ export function RegionPreview({ spots }: { spots: LocalizedRegionSpot[] }) {
   );
 }
 
-export function RegionGrid({ spots, showImages = false }: { spots: LocalizedRegionSpot[]; showImages?: boolean }) {
+export function RegionGrid({ spots, showImages }: { spots: LocalizedRegionSpot[]; showImages?: boolean }) {
   const t = useTranslations("region");
   const tc = useTranslations("common");
+  const displayImages = showImages ?? !usePlaceholderImages;
 
   return (
     <section className="section-padding bg-cream">
@@ -79,7 +90,7 @@ export function RegionGrid({ spots, showImages = false }: { spots: LocalizedRegi
               variants={staggerItem}
               className="overflow-hidden rounded-2xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
             >
-              {showImages ? (
+              {displayImages ? (
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <Image
                     src={spot.image}
