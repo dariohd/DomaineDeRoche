@@ -20,7 +20,13 @@ const navItems = [
   { href: "/contact", key: "contact" },
 ] as const;
 
-function LanguageSwitcher({ scrolled }: { scrolled: boolean }) {
+function hasDarkHeroAtTop(pathname: string) {
+  if (pathname === "/") return true;
+  if (pathname === "/decouvrir" || pathname === "/evenements") return true;
+  return /^\/hebergements\/[^/]+$/.test(pathname);
+}
+
+function LanguageSwitcher({ solid }: { solid: boolean }) {
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const router = useRouter();
@@ -30,7 +36,7 @@ function LanguageSwitcher({ scrolled }: { scrolled: boolean }) {
   };
 
   return (
-    <div className="flex items-center gap-1 rounded-full border border-current/10 p-0.5">
+    <div className="flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-current/10 p-0.5">
       {routing.locales.map((loc) => (
         <button
           key={loc}
@@ -39,10 +45,10 @@ function LanguageSwitcher({ scrolled }: { scrolled: boolean }) {
           className={cn(
             "rounded-full px-2.5 py-1 text-xs font-medium uppercase tracking-wide transition-colors",
             locale === loc
-              ? scrolled
+              ? solid
                 ? "bg-forest text-cream"
                 : "bg-cream/20 text-cream"
-              : scrolled
+              : solid
                 ? "text-stone hover:text-forest"
                 : "text-cream/70 hover:text-cream",
           )}
@@ -57,14 +63,19 @@ function LanguageSwitcher({ scrolled }: { scrolled: boolean }) {
 export function Header() {
   const t = useTranslations("nav");
   const tMeta = useTranslations("metadata");
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const darkHero = hasDarkHeroAtTop(pathname);
+  const solid = scrolled || !darkHero;
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
+    onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
@@ -78,33 +89,33 @@ export function Header() {
       <header
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
-          scrolled
+          solid
             ? "glass border-b border-forest/5 py-3 shadow-sm"
             : "bg-transparent py-5",
         )}
       >
-        <div className="container-wide flex items-center justify-between px-6 md:px-10 lg:px-16">
-          <Link href="/" className="group flex items-center gap-3">
+        <div className="mx-auto flex w-full max-w-[1600px] items-center justify-between gap-3 px-4 md:px-8 lg:px-10 xl:gap-6 xl:px-12">
+          <Link href="/" className="group flex shrink-0 items-center gap-2.5 sm:gap-3">
             <Image
               src="https://l.icdbcdn.com/oh/1d23a54c-a405-4f10-93f5-c967eba92a39.png?w=200"
               alt={tMeta("siteName")}
               width={48}
               height={48}
-              className="h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-105 md:h-12 md:w-12"
+              className="h-10 w-10 shrink-0 object-contain transition-transform duration-300 group-hover:scale-105 md:h-11 md:w-11"
             />
-            <div className="hidden sm:block">
+            <div className="hidden min-w-0 sm:block">
               <p
                 className={cn(
-                  "font-serif text-lg leading-tight tracking-wide transition-colors md:text-xl",
-                  scrolled ? "text-forest" : "text-cream",
+                  "whitespace-nowrap font-serif text-base leading-tight tracking-wide transition-colors lg:text-lg xl:text-xl",
+                  solid ? "text-forest" : "text-cream",
                 )}
               >
                 {tMeta("siteName")}
               </p>
               <p
                 className={cn(
-                  "text-[10px] uppercase tracking-[0.2em] transition-colors md:text-xs",
-                  scrolled ? "text-stone" : "text-cream/70",
+                  "hidden whitespace-nowrap text-[10px] uppercase tracking-[0.2em] transition-colors xl:block xl:text-xs",
+                  solid ? "text-stone" : "text-cream/70",
                 )}
               >
                 Charente-Maritime
@@ -112,14 +123,14 @@ export function Header() {
             </div>
           </Link>
 
-          <nav className="hidden items-center gap-1 lg:flex">
+          <nav className="hidden shrink-0 items-center lg:flex">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "rounded-full px-4 py-2 text-sm font-medium transition-all duration-300",
-                  scrolled
+                  "whitespace-nowrap rounded-full px-2.5 py-2 text-[13px] font-medium transition-all duration-300 xl:px-3.5 xl:text-sm",
+                  solid
                     ? "text-forest/80 hover:bg-forest/5 hover:text-forest"
                     : "text-cream/90 hover:bg-cream/10 hover:text-cream",
                 )}
@@ -129,31 +140,31 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="hidden items-center gap-3 lg:flex">
-            <LanguageSwitcher scrolled={scrolled} />
+          <div className="hidden shrink-0 items-center gap-2 lg:flex xl:gap-3">
+            <LanguageSwitcher solid={solid} />
             <a
               href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
               className={cn(
-                "flex items-center gap-2 text-sm transition-colors",
-                scrolled ? "text-stone hover:text-forest" : "text-cream/80 hover:text-cream",
+                "flex shrink-0 items-center gap-1.5 whitespace-nowrap text-[13px] transition-colors xl:text-sm",
+                solid ? "text-stone hover:text-forest" : "text-cream/80 hover:text-cream",
               )}
             >
-              <Phone className="h-4 w-4" />
+              <Phone className="h-4 w-4 shrink-0" />
               <span className="hidden xl:inline">{siteConfig.phone}</span>
             </a>
-            <Button href="/reservation" variant={scrolled ? "primary" : "secondary"} size="sm">
+            <Button href="/reservation" variant={solid ? "primary" : "secondary"} size="sm" className="shrink-0">
               {t("book")}
             </Button>
           </div>
 
           <div className="flex items-center gap-2 lg:hidden">
-            <LanguageSwitcher scrolled={scrolled} />
+            <LanguageSwitcher solid={solid} />
             <button
               type="button"
               onClick={() => setMobileOpen(true)}
               className={cn(
                 "rounded-lg p-2 transition-colors",
-                scrolled ? "text-forest" : "text-cream",
+                solid ? "text-forest" : "text-cream",
               )}
               aria-label={t("openMenu")}
             >

@@ -50,7 +50,7 @@ export function Hero() {
 
       <div className="image-overlay absolute inset-0" />
 
-      <div className="relative z-10 flex h-full flex-col justify-end pb-24 pt-32 md:pb-32">
+      <div className="relative z-10 flex h-full flex-col justify-end pb-6 pt-32 md:pb-10">
         <div className="container-wide px-6 md:px-10 lg:px-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -84,7 +84,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-12 flex flex-wrap gap-6 border-t border-cream/20 pt-8 md:gap-12"
+            className="mt-10 flex flex-wrap gap-6 border-t border-cream/20 pt-8 md:mt-12 md:gap-12"
           >
             {[
               { value: String(siteConfig.stats.gites), label: t("statAccommodations") },
@@ -98,10 +98,41 @@ export function Hero() {
               </div>
             ))}
           </motion.div>
+
+          <div className="mt-6 flex justify-center gap-2 md:mt-8">
+            {heroImages.map((_, i) => (
+              <button
+                key={i}
+                type="button"
+                onClick={() => setCurrent(i)}
+                className={`h-1.5 rounded-full transition-all duration-300 ${
+                  i === current ? "w-8 bg-gold" : "w-1.5 bg-cream/40"
+                }`}
+                aria-label={`Slide ${i + 1}`}
+              />
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1 }}
+            className="mt-6 hidden md:block"
+          >
+            <div className="glass rounded-2xl border border-forest/5 p-6 shadow-2xl">
+              <div className="flex items-center justify-between gap-6">
+                <div>
+                  <p className="text-sm font-medium text-stone">{t("readyToGo")}</p>
+                  <p className="font-serif text-xl text-forest">{t("findStay")}</p>
+                </div>
+                <Button href="/reservation">{t("checkAvailability")}</Button>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
 
-      <div className="absolute bottom-8 right-6 z-20 flex gap-2 md:right-10">
+      <div className="absolute right-6 top-1/2 z-20 flex -translate-y-1/2 gap-2 md:right-10">
         <button
           type="button"
           onClick={prev}
@@ -119,39 +150,6 @@ export function Hero() {
           <ChevronRight className="h-5 w-5" />
         </button>
       </div>
-
-      <div className="absolute bottom-8 left-1/2 z-20 flex -translate-x-1/2 gap-2">
-        {heroImages.map((_, i) => (
-          <button
-            key={i}
-            type="button"
-            onClick={() => setCurrent(i)}
-            className={`h-1.5 rounded-full transition-all duration-300 ${
-              i === current ? "w-8 bg-gold" : "w-1.5 bg-cream/40"
-            }`}
-            aria-label={`Slide ${i + 1}`}
-          />
-        ))}
-      </div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 1 }}
-        className="absolute bottom-0 left-0 right-0 z-10 hidden md:block"
-      >
-        <div className="container-wide px-6 pb-8 md:px-10 lg:px-16">
-          <div className="glass rounded-2xl border border-forest/5 p-6 shadow-2xl">
-            <div className="flex items-center justify-between gap-6">
-              <div>
-                <p className="text-sm font-medium text-stone">{t("readyToGo")}</p>
-                <p className="font-serif text-xl text-forest">{t("findStay")}</p>
-              </div>
-              <Button href="/reservation">{t("checkAvailability")}</Button>
-            </div>
-          </div>
-        </div>
-      </motion.div>
     </section>
   );
 }
