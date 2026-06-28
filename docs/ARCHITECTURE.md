@@ -1,58 +1,22 @@
-# Architecture — Domaine de Roche
+# Notes techniques
 
-Site vitrine **Next.js 16** (App Router) multilingue pour un domaine château + gîtes en Charente-Maritime.
+Site Next.js 16 (App Router), TypeScript, Tailwind 4. Contenu FR/EN via next-intl : routes sous `src/app/[locale]/`, textes dans `messages/fr.json` et `messages/en.json`.
 
-## Vue d'ensemble
+## i18n
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  app/[locale]/… — pages Server Components + metadata SEO │
-├──────────────────────────────────────────────────────────┤
-│  next-intl — routing /fr | /en, messages JSON            │
-├──────────────────────────────────────────────────────────┤
-│  components/ — Header, Footer, sections home animées     │
-│  Framer Motion — scroll reveals, hero carousel             │
-├──────────────────────────────────────────────────────────┤
-│  lib/data/site.ts — URL canonique, contact, réseaux        │
-│  Tailwind CSS 4 — design tokens, responsive mobile-first │
-├──────────────────────────────────────────────────────────┤
-│  Vercel — déploiement edge, preview par branche            │
-└──────────────────────────────────────────────────────────┘
-```
+`routing.ts` déclare les locales. `generateStaticParams` pré-génère `/fr` et `/en`. Le middleware next-intl redirige vers la locale par défaut.
 
-## Routing i18n
+## Contenu
 
-- Segment dynamique `[locale]` avec `generateStaticParams` pour `fr` et `en`.
-- Fichiers de traduction : `messages/fr.json`, `messages/en.json`.
-- Config centralisée dans `src/i18n/routing.ts` (locales, préfixe par défaut).
+Pas de CMS ni de base : hébergements, événements, textes région, etc. sont dans les composants et les fichiers de traduction. La config globale (URL, email, réseaux) est dans `src/lib/data/site.ts`.
 
-## Pages principales
+Animations scroll et hero carousel : Framer Motion. Metadata SEO par page via `generateMetadata` dans le layout locale.
 
-| Route | Contenu |
-|-------|---------|
-| `/[locale]` | Hero carousel, présentation, aperçu hébergements, témoignages |
-| `/[locale]/decouvrir` | Histoire du domaine, parc 13 000 m² |
-| `/[locale]/hebergements` | Fiches château + 9 gîtes |
-| `/[locale]/evenements` | Mariages, séminaires (capacité 80 pers.) |
-| `/[locale]/region` | Tourisme Charente-Maritime |
-| `/[locale]/contact` | Formulaire + coordonnées |
+## Pages
 
-## SEO & performance
-
-- `generateMetadata` par locale (titre, description, Open Graph).
-- Images dans `public/`, polices Google via `next/font` (Cormorant + Outfit).
-- Pas de base de données : contenu statique + traductions versionnées dans le repo.
+- `/[locale]` — accueil
+- `/[locale]/decouvrir`, `/hebergements`, `/evenements`, `/region`, `/contact`
 
 ## Déploiement
 
-- **Production** : https://domainederoche.vercel.app
-- Build : `next build` — sortie optimisée App Router.
-- `vercel.json` : en-têtes sécurité, configuration projet.
-
-## Développement local
-
-```bash
-npm install && npm run dev
-```
-
-→ http://localhost:3000/fr
+Push sur `main` → Vercel. `next build`, pas de variables d'env obligatoires pour le site tel qu'il est aujourd'hui.

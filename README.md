@@ -1,16 +1,14 @@
-# Domaine de Roche — Documentation projet
+# Domaine de Roche
 
-[![Voir en ligne](https://img.shields.io/badge/Voir%20en%20ligne-→-0ea5e9?style=for-the-badge)](https://domainederoche.vercel.app)
+![domainederoche.vercel.app](docs/screenshot.png)
 
-![Aperçu du site Domaine de Roche](docs/screenshot.png)
-
-Site vitrine premium pour le **Domaine de Roche** — château et gîtes en Charente-Maritime (Saint-Just-Luzac).
+Site vitrine pour le **Domaine de Roche** — château et gîtes en Charente-Maritime (Saint-Just-Luzac).
 
 | | |
 |---|---|
 | **URL production** | https://domainederoche.vercel.app |
-| **Architecture** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | **Dépôt GitHub** | [github.com/dariohd/DomaineDeRoche](https://github.com/dariohd/DomaineDeRoche) |
+| **Notes techniques** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | **Hébergement** | Vercel |
 | **Création** | [Bulle ton site](https://bulletonsite.com) — Hugo Davion |
 
