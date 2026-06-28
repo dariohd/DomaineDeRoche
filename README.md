@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Domaine de Roche — Documentation projet
 
-## Getting Started
+Site vitrine premium pour le **Domaine de Roche** — château et gîtes en Charente-Maritime (Saint-Just-Luzac).
 
-First, run the development server:
+| | |
+|---|---|
+| **URL production** | https://domainederoche.vercel.app |
+| **Dépôt GitHub** | [github.com/dariohd/DomaineDeRoche](https://github.com/dariohd/DomaineDeRoche) |
+| **Hébergement** | Vercel |
+| **Création** | [Bulle ton site](https://bulletonsite.com) — Hugo Davion |
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Stack technique
+
+- **Next.js 16** (App Router) + **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **Framer Motion** (animations scroll / hero)
+- **next-intl** — internationalisation FR / EN
+- **lucide-react** (icônes)
+- Déploiement **Vercel**
+
+---
+
+## Fonctionnalités
+
+- Pages : accueil, découvrir, hébergements, événements (mariages/séminaires), région, contact
+- **Multilingue** FR/EN (`messages/fr.json`, `messages/en.json`)
+- Hero carousel, sections animées, témoignages
+- Fiches hébergements (château + 9 gîtes)
+- Bloc événements (capacité 80 personnes, parc 13 000 m²)
+- **SEO** : metadata dynamique, Open Graph via `siteConfig`
+- Mentions légales / confidentialité intégrées aux traductions
+- Design responsive mobile-first
+
+---
+
+## Structure du projet
+
+```
+DomaineDeRoche/
+├── src/
+│   ├── app/[locale]/       # Routes i18n (layout, pages)
+│   ├── components/
+│   │   ├── home/           # Hero, about, accommodations preview…
+│   │   └── layout/         # Header, footer
+│   ├── lib/data/site.ts    # Config globale (URL, contact, réseaux)
+│   └── i18n/               # Routing locales
+├── messages/
+│   ├── fr.json
+│   └── en.json
+├── public/                 # Images statiques
+├── next.config.ts
+├── vercel.json
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Prérequis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 20+
+- npm ou pnpm
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Développement local
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+→ **http://localhost:3000**
 
-## Deploy on Vercel
+Locales : `/fr` (défaut) et `/en`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts
+
+| Commande | Description |
+|----------|-------------|
+| `npm run dev` | Serveur de développement |
+| `npm run build` | Build production |
+| `npm run start` | Serveur production local |
+| `npm run lint` | ESLint (config Next.js) |
+
+---
+
+## Configuration
+
+Fichier central : `src/lib/data/site.ts`
+
+```ts
+name, url, email, phone, address, social, stats
+```
+
+URL canonique : `https://domainederoche.vercel.app`
+
+Textes éditoriaux : `messages/fr.json` et `messages/en.json`.
+
+---
+
+## Déploiement
+
+1. Push sur `main` → Vercel build automatique
+2. Variables d'environnement : aucune obligatoire pour le site statique/SSR de base
+3. Domaine custom : ajouter dans Vercel → Domains si le client en fournit un
+
+---
+
+## SEO & i18n
+
+- `generateMetadata` dans `src/app/[locale]/layout.tsx`
+- `siteName`, `description`, `openGraph.url` depuis `siteConfig` + traductions
+- Alternance FR/EN via middleware next-intl
+
+---
+
+## Conformité
+
+- Sections légales dans les fichiers de traduction (mentions, RGPD)
+- Coordonnées client : William & Johanna — Saint-Just-Luzac
+
+---
+
+## Contact projet
+
+- **Client** : Domaine de Roche — Charente-Maritime
+- **Email** : info@domainederochebonne.com
+- **Développement** : [bulletonsite.com](https://bulletonsite.com)
