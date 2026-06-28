@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "siteName": "Domaine de Rochebonne",
+    "siteName": "Domaine de Roche",
     "tagline": "Holiday Cottages & Château in Charente-Maritime",
     "description": "Private château and 9 independent holiday cottages in a 13,000 m² enclosed park, 10 minutes from the Atlantic beaches. Personal welcome from William and Johanna."
   },
@@ -112,7 +112,7 @@
   "about": {
     "sectionLabel": "Our story",
     "title": "A family estate, a personal welcome",
-    "p1": "Domaine de Rochebonne is our former family property in Charente-Maritime, gradually transformed into a holiday estate. We live here with Johanna and personally welcome every guest.",
+    "p1": "Domaine de Roche is our former family property in Charente-Maritime, gradually transformed into a holiday estate. We live here with Johanna and personally welcome every guest.",
     "p2": "The estate comprises a château and 8 independent cottages, all gathered within a walled park of 13,000 m², spaced 5 to 50 metres apart. Ideal for groups booking several cottages side by side.",
     "p3": "In total, the estate accommodates up to 61 guests in the cottages alone, plus the private château, for 9 accommodations in all.",
     "parkSize": "13,000 m²",
@@ -247,7 +247,7 @@
       ]
     },
     "domaine-entier": {
-      "name": "The entire Domaine de Rochebonne",
+      "name": "The entire Domaine de Roche",
       "shortName": "Full estate",
       "description": "Privatise the entire estate for an exceptional event: wedding, seminar or large family gathering.",
       "highlights": [
@@ -349,7 +349,7 @@
     "subtitle": "Everything you need to know to plan your stay",
     "items": [
       {
-        "question": "How do I get to Domaine de Rochebonne?",
+        "question": "How do I get to Domaine de Roche?",
         "answer": "The estate is located in Saint-Just-Luzac (17320), Charente-Maritime. By car: 25 min from Rochefort, 35 min from La Rochelle, 20 min from Royan. By train: La Rochelle TGV station (35 min) or Rochefort station (25 min). By plane: La Rochelle – Île de Ré airport (35 min). Free parking for over 20 vehicles is available on site."
       },
       {
@@ -382,7 +382,7 @@
       },
       {
         "question": "Is the estate suitable for a wedding or event?",
-        "answer": "Yes, Domaine de Rochebonne is ideal for weddings, seminars and events. We can host up to 80 guests with on-site accommodation. The 13,000 m² park and two pools provide an exceptional setting for ceremonies and receptions."
+        "answer": "Yes, Domaine de Roche is ideal for weddings, seminars and events. We can host up to 80 guests with on-site accommodation. The 13,000 m² park and two pools provide an exceptional setting for ceremonies and receptions."
       },
       {
         "question": "What activities are nearby?",
@@ -400,12 +400,12 @@
     "heroLabel": "Our estate",
     "heroTitle": "A peaceful haven between ocean and countryside",
     "section1Title": "Our charming accommodations",
-    "section1p1": "Our holiday homes, set on spacious grounds with pools, play areas and more, are at your disposal. Just 5 km from the Atlantic in Charente-Maritime, Rochebonne offers 10 well-equipped houses, including a charming château, spread across 13,000 m² of enclosed gardens with two pools.",
+    "section1p1": "Our holiday homes, set on spacious grounds with pools, play areas and more, are at your disposal. Just 5 km from the Atlantic in Charente-Maritime, The estate offers 10 well-equipped houses, including a charming château, spread across 13,000 m² of enclosed gardens with two pools.",
     "section1p2": "Each cottage has a private garden, a furnished terrace with barbecue, and direct access to the shared gardens and a fenced pool. We also offer a fully private château with its own pool and grounds.",
     "facilitiesTitle": "Facilities & amenities",
     "facilitiesp1": "On-site facilities include a children's play area with wooden fort, sandpit, swings, games, badminton net and football pitch.",
     "facilitiesp2": "The property is fully fenced, ensuring children's safety while parents relax. Fast, reliable Wi-Fi is available throughout the estate.",
-    "facilitiesp3": "Domaine de Rochebonne is close to picturesque towns such as La Rochelle, Rochefort, Royan, Saintes and Saint-Palais-sur-Mer, all easily accessible by car.",
+    "facilitiesp3": "Domaine de Roche is close to picturesque towns such as La Rochelle, Rochefort, Royan, Saintes and Saint-Palais-sur-Mer, all easily accessible by car.",
     "hostsTitle": "William & Johanna",
     "hostsText": "We live on site and personally welcome all our guests. On arrival, we show you around the estate and remain available throughout your stay to answer any questions."
   },
@@ -414,7 +414,7 @@
     "heroTitle": "An exceptional venue for unforgettable moments",
     "heroSubtitle": "Weddings, seminars, birthdays: host up to 80 guests with on-site accommodation in a unique setting.",
     "sectionTitle": "Your event, our estate",
-    "sectionSubtitle": "The 13,000 m² enclosed park, two pools and variety of accommodations make Domaine de Rochebonne an ideal place to celebrate in style.",
+    "sectionSubtitle": "The 13,000 m² enclosed park, two pools and variety of accommodations make Domaine de Roche an ideal place to celebrate in style.",
     "capacityTitle": "Capacity & accommodation",
     "capacityItems": [
       "Up to 80 guests for an event with on-site accommodation",
@@ -471,7 +471,7 @@
       "sections": [
         {
           "title": "Site publisher",
-          "content": "Domaine de Rochebonne\nDomaine de Rochebonne\n17320 Saint-Just-Luzac\nEmail: info@domainederochebonne.com\nPhone: +33 7 66 38 46 44"
+          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nEmail: info@domainederochebonne.com\nPhone: +33 7 66 38 46 44"
         },
         {
           "title": "Hosting",
@@ -479,7 +479,7 @@
         },
         {
           "title": "Intellectual property",
-          "content": "All content on this website (text, images, logos) is the property of Domaine de Rochebonne. Any reproduction is prohibited without prior authorisation."
+          "content": "All content on this website (text, images, logos) is the property of Domaine de Roche. Any reproduction is prohibited without prior authorisation."
         }
       ]
     },
@@ -488,7 +488,7 @@
       "sections": [
         {
           "title": "Introduction",
-          "content": "Domaine de Rochebonne is committed to protecting the privacy of users of its website https://ledomainederochebonne.com."
+          "content": "Domaine de Roche is committed to protecting the privacy of users of its website https://domainederoche.vercel.app."
         },
         {
           "title": "Data collected",

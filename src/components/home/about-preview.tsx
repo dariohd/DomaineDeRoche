@@ -18,7 +18,7 @@ export function AboutPreview() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <ConditionalImage
                 src="https://l.icdbcdn.com/oh/057b5763-a921-4b00-bda1-19658139cb16.jpg?w=1200"
-                alt="Domaine de Rochebonne"
+                alt="Domaine de Roche"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -79,7 +79,7 @@ export function CtaSection() {
       <div className="absolute inset-0">
         <ConditionalImage
           src="https://l.icdbcdn.com/oh/33686df5-bbdf-4652-8d29-2cc7b19c1bd3.jpg?w=1600"
-          alt="Domaine de Rochebonne"
+          alt="Domaine de Roche"
           fill
           className="object-cover"
           sizes="100vw"

@@ -41,7 +41,7 @@ export function Hero() {
         >
           <ConditionalImage
             src={heroImages[current]}
-            alt="Domaine de Rochebonne"
+            alt="Domaine de Roche"
             fill
             priority={current === 0}
             className="object-cover"

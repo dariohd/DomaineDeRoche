@@ -1,12 +1,12 @@
 export const siteConfig = {
-  name: "Domaine de Rochebonne",
-  url: "https://ledomainederochebonne.com",
+  name: "Domaine de Roche",
+  url: "https://domainederoche.vercel.app",
   email: "info@domainederochebonne.com",
   phone: "+33 7 66 38 46 44",
   phoneJohanna: "+33 7 66 30 44 14",
   whatsapp: "https://wa.me/33766384644",
   address: {
-    street: "Domaine de Rochebonne",
+    street: "Domaine de Roche",
     city: "Saint-Just-Luzac",
     zip: "17320",
     region: "Charente-Maritime",

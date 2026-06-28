@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "siteName": "Domaine de Rochebonne",
+    "siteName": "Domaine de Roche",
     "tagline": "Gîtes & Château en Charente-Maritime",
     "description": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique. Accueil personnalisé par William et Johanna."
   },
@@ -112,7 +112,7 @@
   "about": {
     "sectionLabel": "Notre histoire",
     "title": "Une propriété de famille, un accueil personnel",
-    "p1": "Le Domaine de Rochebonne est notre ancienne propriété de famille en Charente-Maritime, transformée petit à petit en domaine de vacances. On y vit avec Johanna et on s'occupe nous-mêmes de l'accueil.",
+    "p1": "Le Domaine de Roche est notre ancienne propriété de famille en Charente-Maritime, transformée petit à petit en domaine de vacances. On y vit avec Johanna et on s'occupe nous-mêmes de l'accueil.",
     "p2": "Le domaine se compose d'un château et de 8 gîtes indépendants, tous regroupés dans un grand parc clos de murs de 13 000 m², à 5 à 50 mètres les uns des autres. Pratique pour les groupes qui veulent réserver plusieurs gîtes côte à côte.",
     "p3": "En tout, le domaine accueille jusqu'à 61 personnes côté gîtes seuls, le château privé en plus, pour 9 hébergements au total.",
     "parkSize": "13 000 m²",
@@ -247,7 +247,7 @@
       ]
     },
     "domaine-entier": {
-      "name": "Le domaine de Rochebonne entier",
+      "name": "Le domaine de Roche entier",
       "shortName": "Domaine entier",
       "description": "Privatisez l'intégralité du domaine pour un événement exceptionnel : mariage, séminaire ou grande réunion familiale.",
       "highlights": [
@@ -349,7 +349,7 @@
     "subtitle": "Tout ce que vous devez savoir pour préparer votre séjour",
     "items": [
       {
-        "question": "Comment accéder au Domaine de Rochebonne ?",
+        "question": "Comment accéder au Domaine de Roche ?",
         "answer": "Le domaine se situe à Saint-Just-Luzac (17320), en Charente-Maritime. En voiture : 25 min de Rochefort, 35 min de La Rochelle, 20 min de Royan. En train : gare TGV de La Rochelle (35 min) ou gare de Rochefort (25 min). En avion : aéroport de La Rochelle – Île de Ré (35 min). Un parking gratuit pour plus de 20 véhicules est disponible sur place."
       },
       {
@@ -382,7 +382,7 @@
       },
       {
         "question": "Le domaine est-il adapté pour un mariage ou un événement ?",
-        "answer": "Oui, le Domaine de Rochebonne est idéal pour les mariages, séminaires et événements. Nous pouvons accueillir jusqu'à 80 personnes avec hébergement sur place. Le parc de 13 000 m² et les deux piscines offrent un cadre exceptionnel pour les cérémonies et réceptions."
+        "answer": "Oui, le Domaine de Roche est idéal pour les mariages, séminaires et événements. Nous pouvons accueillir jusqu'à 80 personnes avec hébergement sur place. Le parc de 13 000 m² et les deux piscines offrent un cadre exceptionnel pour les cérémonies et réceptions."
       },
       {
         "question": "Quelles activités à proximité ?",
@@ -400,12 +400,12 @@
     "heroLabel": "Notre domaine",
     "heroTitle": "Un havre de paix entre océan et campagne",
     "section1Title": "Nos hébergements de charme",
-    "section1p1": "Nos maisons de vacances, situées sur de vastes terrains avec piscines, aires de jeux et plus, sont à votre disposition. À seulement 5 km de l'Atlantique en Charente-Maritime, Rochebonne propose 10 maisons bien équipées, dont un charmant château, réparties sur 13 000 m² de jardins clos avec deux piscines.",
+    "section1p1": "Nos maisons de vacances, situées sur de vastes terrains avec piscines, aires de jeux et plus, sont à votre disposition. À seulement 5 km de l'Atlantique en Charente-Maritime, Le domaine propose 10 maisons bien équipées, dont un charmant château, réparties sur 13 000 m² de jardins clos avec deux piscines.",
     "section1p2": "Chaque gîte dispose d'un jardin privé, d'une terrasse meublée avec barbecue, et d'un accès direct aux grands jardins communs et à une piscine clôturée. Nous proposons également un château entièrement privé avec sa propre piscine et parc.",
     "facilitiesTitle": "Installations & équipements",
     "facilitiesp1": "Les installations sur place comprennent une aire de jeux pour enfants avec fort en bois, bac à sable, balançoires, jeux, filet de badminton et terrain de football.",
     "facilitiesp2": "La propriété est entièrement clôturée, garantissant la sécurité des enfants pendant que les parents se détendent. Une connexion Wi-Fi rapide et fiable est disponible dans tout l'établissement.",
-    "facilitiesp3": "Le Domaine de Rochebonne est proche de villes pittoresques comme La Rochelle, Rochefort, Royan, Saintes et Saint-Palais-sur-Mer, toutes facilement accessibles en voiture.",
+    "facilitiesp3": "Le Domaine de Roche est proche de villes pittoresques comme La Rochelle, Rochefort, Royan, Saintes et Saint-Palais-sur-Mer, toutes facilement accessibles en voiture.",
     "hostsTitle": "William & Johanna",
     "hostsText": "Nous habitons sur place et assurons nous-mêmes l'accueil de nos visiteurs. À votre arrivée, nous vous faisons visiter le domaine et restons disponibles tout au long de votre séjour pour répondre à vos questions."
   },
@@ -414,7 +414,7 @@
     "heroTitle": "Un lieu d'exception pour vos moments inoubliables",
     "heroSubtitle": "Mariages, séminaires, anniversaires : accueillez jusqu'à 80 personnes avec hébergement sur place dans un cadre unique.",
     "sectionTitle": "Votre événement, notre domaine",
-    "sectionSubtitle": "Le parc clos de 13 000 m², les deux piscines et la diversité des hébergements font du Domaine de Rochebonne un lieu idéal pour célébrer en grand.",
+    "sectionSubtitle": "Le parc clos de 13 000 m², les deux piscines et la diversité des hébergements font du Domaine de Roche un lieu idéal pour célébrer en grand.",
     "capacityTitle": "Capacité & hébergement",
     "capacityItems": [
       "Jusqu'à 80 personnes pour un événement avec hébergement",
@@ -471,7 +471,7 @@
       "sections": [
         {
           "title": "Éditeur du site",
-          "content": "Domaine de Rochebonne\nDomaine de Rochebonne\n17320 Saint-Just-Luzac\nEmail : info@domainederochebonne.com\nTéléphone : +33 7 66 38 46 44"
+          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nEmail : info@domainederochebonne.com\nTéléphone : +33 7 66 38 46 44"
         },
         {
           "title": "Hébergement",
@@ -479,7 +479,7 @@
         },
         {
           "title": "Propriété intellectuelle",
-          "content": "L'ensemble du contenu de ce site (textes, images, logos) est la propriété du Domaine de Rochebonne. Toute reproduction est interdite sans autorisation préalable."
+          "content": "L'ensemble du contenu de ce site (textes, images, logos) est la propriété du Domaine de Roche. Toute reproduction est interdite sans autorisation préalable."
         }
       ]
     },
@@ -488,7 +488,7 @@
       "sections": [
         {
           "title": "Introduction",
-          "content": "Le Domaine de Rochebonne s'engage à protéger la vie privée des utilisateurs de son site internet https://ledomainederochebonne.com."
+          "content": "Le Domaine de Roche s'engage à protéger la vie privée des utilisateurs de son site internet https://domainederoche.vercel.app."
         },
         {
           "title": "Données collectées",

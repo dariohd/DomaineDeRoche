@@ -31,7 +31,7 @@ export default async function DecouvrirPage() {
         <div className="absolute inset-0">
           <ConditionalImage
             src="https://l.icdbcdn.com/oh/ef3765af-d04f-4097-ad51-91253d1c80b5.jpg?w=1600"
-            alt="Domaine de Rochebonne"
+            alt="Domaine de Roche"
             fill
             className="object-cover"
             sizes="100vw"
