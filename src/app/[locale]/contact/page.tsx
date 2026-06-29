@@ -22,9 +22,10 @@ export default function ContactPage() {
     const email = data.get("email") as string;
     const message = data.get("message") as string;
     const subjectType = data.get("subject-type") as string;
-    const subject = encodeURIComponent(`Contact - ${name} (${subjectType})`);
-    const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\n\n${message}`);
-    window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
+    const body = encodeURIComponent(
+      `Contact - ${name} (${subjectType})\nNom: ${name}\nEmail: ${email}\n\n${message}`,
+    );
+    window.open(`${siteConfig.whatsapp}?text=${body}`, "_blank", "noopener,noreferrer");
     setSent(true);
   }
 
@@ -66,15 +67,17 @@ export default function ContactPage() {
                 ))}
 
                 <a
-                  href={`mailto:${siteConfig.email}`}
+                  href={siteConfig.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-start gap-4 rounded-xl border border-forest/5 bg-white p-5 transition-all hover:border-gold/30 hover:shadow-lg"
                 >
                   <div className="rounded-lg bg-gold/10 p-3">
                     <Mail className="h-5 w-5 text-gold" />
                   </div>
                   <div>
-                    <p className="text-sm text-stone">{tc("email")}</p>
-                    <p className="font-medium text-forest">{siteConfig.email}</p>
+                    <p className="text-sm text-stone">WhatsApp</p>
+                    <p className="font-medium text-forest">{siteConfig.phone}</p>
                   </div>
                 </a>
 

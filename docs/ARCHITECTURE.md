@@ -8,7 +8,7 @@ Site Next.js 16 (App Router), TypeScript, Tailwind 4. Contenu FR/EN via next-int
 
 ## Contenu
 
-Pas de CMS ni de base : hébergements, événements, textes région, etc. sont dans les composants et les fichiers de traduction. La config globale (URL, email, réseaux) est dans `src/lib/data/site.ts`.
+Pas de CMS ni de base : hébergements, événements, textes région, etc. sont dans les composants et les fichiers de traduction. La config globale (URL, téléphones, réseaux) est dans `src/lib/data/site.ts`.
 
 Animations scroll et hero carousel : Framer Motion. Metadata SEO par page via `generateMetadata` dans le layout locale.
 

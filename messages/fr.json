@@ -56,7 +56,7 @@
     "subjectGroup": "Devis groupe",
     "subjectEvent": "Mariage / Événement",
     "subjectOther": "Autre question",
-    "sentConfirmation": "Votre client mail va s'ouvrir. Merci de nous contacter, nous vous répondrons rapidement.",
+    "sentConfirmation": "WhatsApp va s'ouvrir avec votre message. Merci — nous vous répondrons rapidement.",
     "exploreRegion": "Explorer la région",
     "discoverDomain": "Découvrir le domaine",
     "allAccommodations": "Tous nos hébergements",
@@ -450,7 +450,7 @@
     "hostsTitle": "William & Johanna",
     "hostsText": "Nous habitons sur le domaine et assurons l'accueil de tous nos visiteurs. N'hésitez pas à nous appeler directement.",
     "formTitle": "Envoyez-nous un message",
-    "formSent": "Votre client mail va s'ouvrir. Merci de nous contacter, nous vous répondrons rapidement."
+    "formSent": "WhatsApp va s'ouvrir avec votre message. Merci — nous vous répondrons rapidement."
   },
   "reservation": {
     "title": "Réservez votre séjour",
@@ -471,7 +471,7 @@
       "sections": [
         {
           "title": "Éditeur du site",
-          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nEmail : info@domainederochebonne.com\nTéléphone : +33 7 66 38 46 44"
+          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nSite : https://domainederoche.vercel.app\nTéléphone : +33 7 66 38 46 44"
         },
         {
           "title": "Hébergement",
@@ -500,7 +500,7 @@
         },
         {
           "title": "Vos droits",
-          "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous à info@domainederochebonne.com."
+          "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous via https://domainederoche.vercel.app/fr/contact ou par téléphone au +33 7 66 38 46 44."
         }
       ]
     }

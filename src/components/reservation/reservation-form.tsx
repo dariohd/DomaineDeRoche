@@ -29,11 +29,10 @@ export default function ReservationForm() {
     const guests = data.get("guests") as string;
     const message = data.get("message") as string;
 
-    const subject = encodeURIComponent(`Réservation - ${name}`);
     const body = encodeURIComponent(
-      `Nom: ${name}\nEmail: ${email}\nHébergement: ${accommodation}\nArrivée: ${arrival}\nDépart: ${departure}\nPersonnes: ${guests}\n\n${message}`,
+      `Réservation - ${name}\nNom: ${name}\nEmail: ${email}\nHébergement: ${accommodation}\nArrivée: ${arrival}\nDépart: ${departure}\nPersonnes: ${guests}\n\n${message}`,
     );
-    window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
+    window.open(`${siteConfig.whatsapp}?text=${body}`, "_blank", "noopener,noreferrer");
     setSent(true);
   }
 

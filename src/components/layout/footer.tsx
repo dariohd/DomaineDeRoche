@@ -32,24 +32,6 @@ export async function Footer() {
               </div>
             </div>
             <p className="mt-6 text-sm leading-relaxed text-cream/70">{t("footerAbout")}</p>
-            <div className="mt-6 flex gap-3">
-              <a
-                href={siteConfig.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-cream/10 px-4 py-2.5 text-xs font-medium transition-colors hover:bg-cream/20"
-              >
-                Facebook
-              </a>
-              <a
-                href={siteConfig.social.youtube}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-full bg-cream/10 px-4 py-2.5 text-xs font-medium transition-colors hover:bg-cream/20"
-              >
-                YouTube
-              </a>
-            </div>
           </div>
 
           <div>
@@ -111,9 +93,14 @@ export async function Footer() {
                 </a>
               </li>
               <li>
-                <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-3 transition-colors hover:text-gold-light">
+                <a
+                  href={siteConfig.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 transition-colors hover:text-gold-light"
+                >
                   <Mail className="h-4 w-4 text-gold" />
-                  {siteConfig.email}
+                  {siteConfig.url.replace("https://", "")}
                 </a>
               </li>
             </ul>

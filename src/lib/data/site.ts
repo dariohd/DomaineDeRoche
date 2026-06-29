@@ -1,7 +1,6 @@
 export const siteConfig = {
   name: "Domaine de Roche",
   url: "https://domainederoche.vercel.app",
-  email: "info@domainederochebonne.com",
   phone: "+33 7 66 38 46 44",
   phoneJohanna: "+33 7 66 30 44 14",
   whatsapp: "https://wa.me/33766384644",
@@ -13,9 +12,8 @@ export const siteConfig = {
     country: "France",
   },
   social: {
-    facebook: "https://www.facebook.com/domainederochebonne",
-    youtube: "https://www.youtube.com/@domainederochebonne",
-    googleReviews: "https://www.google.com/maps/place/Domaine+de+Rochebonne",
+    googleReviews:
+      "https://www.google.com/maps/search/?api=1&query=Domaine+de+Roche+Saint-Just-Luzac",
   },
   stats: {
     capacity: 68,

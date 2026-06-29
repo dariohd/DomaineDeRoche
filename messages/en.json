@@ -56,7 +56,7 @@
     "subjectGroup": "Group quote",
     "subjectEvent": "Wedding / Event",
     "subjectOther": "Other question",
-    "sentConfirmation": "Your email client will open. Thank you for reaching out — we will reply shortly.",
+    "sentConfirmation": "WhatsApp will open with your message. Thank you — we will reply shortly.",
     "exploreRegion": "Explore the region",
     "discoverDomain": "Discover the estate",
     "allAccommodations": "All our accommodations",
@@ -450,7 +450,7 @@
     "hostsTitle": "William & Johanna",
     "hostsText": "We live on the estate and welcome all our guests in person. Feel free to call us directly.",
     "formTitle": "Send us a message",
-    "formSent": "Your email client will open. Thank you for reaching out — we will reply shortly."
+    "formSent": "WhatsApp will open with your message. Thank you — we will reply shortly."
   },
   "reservation": {
     "title": "Book your stay",
@@ -471,7 +471,7 @@
       "sections": [
         {
           "title": "Site publisher",
-          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nEmail: info@domainederochebonne.com\nPhone: +33 7 66 38 46 44"
+          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nWebsite: https://domainederoche.vercel.app\nPhone: +33 7 66 38 46 44"
         },
         {
           "title": "Hosting",
@@ -500,7 +500,7 @@
         },
         {
           "title": "Your rights",
-          "content": "Under the GDPR, you have the right to access, rectify and delete your data. To exercise these rights, contact us at info@domainederochebonne.com."
+          "content": "Under the GDPR, you have the right to access, rectify and delete your data. To exercise these rights, contact us at https://domainederoche.vercel.app/en/contact or by phone at +33 7 66 38 46 44."
         }
       ]
     }

@@ -97,7 +97,7 @@ Locales : `/fr` (défaut) et `/en`.
 Fichier central : `src/lib/data/site.ts`
 
 ```ts
-name, url, email, phone, address, social, stats
+name, url, phone, address, social, stats
 ```
 
 URL canonique : `https://domainederoche.vercel.app`
@@ -132,5 +132,5 @@ Textes éditoriaux : `messages/fr.json` et `messages/en.json`.
 ## Contact projet
 
 - **Client** : Domaine de Roche — Charente-Maritime
-- **Email** : info@domainederochebonne.com
+- **Site** : https://domainederoche.vercel.app
 - **Développement** : [bulletonsite.com](https://bulletonsite.com)
