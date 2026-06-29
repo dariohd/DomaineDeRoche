@@ -48,8 +48,8 @@ export default function ContactPage() {
 
               <div className="space-y-6">
                 {[
-                  { label: tc("will"), phone: siteConfig.phone },
-                  { label: tc("johanna"), phone: siteConfig.phoneJohanna },
+                  { label: tc("firstName"), phone: siteConfig.phone },
+                  { label: tc("lastName"), phone: siteConfig.phoneSecondary },
                 ].map((item) => (
                   <a
                     key={item.phone}

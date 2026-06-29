@@ -83,13 +83,13 @@ export async function Footer() {
               <li>
                 <a href={`tel:${siteConfig.phone.replace(/\s/g, "")}`} className="flex items-center gap-3 transition-colors hover:text-gold-light">
                   <Phone className="h-4 w-4 text-gold" />
-                  {t("will")} : {siteConfig.phone}
+                  {t("firstName")} : {siteConfig.phone}
                 </a>
               </li>
               <li>
-                <a href={`tel:${siteConfig.phoneJohanna.replace(/\s/g, "")}`} className="flex items-center gap-3 transition-colors hover:text-gold-light">
+                <a href={`tel:${siteConfig.phoneSecondary.replace(/\s/g, "")}`} className="flex items-center gap-3 transition-colors hover:text-gold-light">
                   <Phone className="h-4 w-4 text-gold" />
-                  {t("johanna")} : {siteConfig.phoneJohanna}
+                  {t("lastName")} : {siteConfig.phoneSecondary}
                 </a>
               </li>
               <li>

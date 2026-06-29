@@ -1,12 +1,12 @@
-# Domaine de Roche
+# Domaine de Roche — template vitrine
 
 ![domainederoche.vercel.app](docs/screenshot.png)
 
-Site vitrine pour le **Domaine de Roche** — château et gîtes en Charente-Maritime (Saint-Just-Luzac).
+**Template Next.js** pour un domaine gîtes & château (démo Bulle ton site). Textes, coordonnées et avis sont des **placeholders** — à personnaliser dans `src/lib/data/site.ts` et `messages/`.
 
 | | |
 |---|---|
-| **URL production** | https://domainederoche.vercel.app |
+| **Démo** | https://domainederoche.vercel.app |
 | **Dépôt GitHub** | [github.com/dariohd/DomaineDeRoche](https://github.com/dariohd/DomaineDeRoche) |
 | **Notes techniques** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | **Hébergement** | Vercel |
@@ -122,15 +122,18 @@ Textes éditoriaux : `messages/fr.json` et `messages/en.json`.
 
 ---
 
-## Conformité
+## Personnalisation (client)
+
+1. **`src/lib/data/site.ts`** — nom, URL, téléphones, adresse, stats
+2. **`messages/fr.json`** et **`messages/en.json`** — textes, hébergements, FAQ, mentions légales
+3. Images dans `public/` ou URLs dans les composants
+
+Placeholders actuels : Prénom, Nom, `+33 6 00 00 00 00`, `123 rue Exemple`, `Ville (00000)`.
 
 - Sections légales dans les fichiers de traduction (mentions, RGPD)
-- Coordonnées client : William & Johanna — Saint-Just-Luzac
-
----
+- Coordonnées éditeur : placeholders dans les traductions
 
 ## Contact projet
 
-- **Client** : Domaine de Roche — Charente-Maritime
-- **Site** : https://domainederoche.vercel.app
+- **Démo** : https://domainederoche.vercel.app
 - **Développement** : [bulletonsite.com](https://bulletonsite.com)

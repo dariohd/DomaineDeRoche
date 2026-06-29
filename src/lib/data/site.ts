@@ -1,26 +1,25 @@
 export const siteConfig = {
   name: "Domaine de Roche",
   url: "https://domainederoche.vercel.app",
-  phone: "+33 7 66 38 46 44",
-  phoneJohanna: "+33 7 66 30 44 14",
-  whatsapp: "https://wa.me/33766384644",
+  phone: "+33 6 00 00 00 00",
+  phoneSecondary: "+33 6 00 00 00 01",
+  whatsapp: "https://wa.me/33600000000",
   address: {
-    street: "Domaine de Roche",
-    city: "Saint-Just-Luzac",
-    zip: "17320",
-    region: "Charente-Maritime",
+    street: "123 rue Exemple",
+    city: "Ville",
+    zip: "00000",
+    region: "Région",
     country: "France",
   },
   social: {
-    googleReviews:
-      "https://www.google.com/maps/search/?api=1&query=Domaine+de+Roche+Saint-Just-Luzac",
+    googleReviews: "https://www.google.com/maps",
   },
   stats: {
     capacity: 68,
     gites: 10,
     parkSize: "13 000 m²",
-    rating: 4.2,
-    reviews: 294,
+    rating: 4.8,
+    reviews: 12,
   },
 };
 

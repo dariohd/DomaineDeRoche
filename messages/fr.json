@@ -2,7 +2,7 @@
   "metadata": {
     "siteName": "Domaine de Roche",
     "tagline": "Gîtes & Château en Charente-Maritime",
-    "description": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique. Accueil personnalisé par William et Johanna."
+    "description": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique. Accueil personnalisé sur place."
   },
   "nav": {
     "home": "Accueil",
@@ -37,8 +37,8 @@
     "contactUs": "Nous contacter",
     "description": "Description",
     "highlights": "Points forts",
-    "will": "Will",
-    "johanna": "Johanna",
+    "firstName": "Prénom",
+    "lastName": "Nom",
     "email": "Email",
     "address": "Adresse",
     "copyright": "Tous droits réservés.",
@@ -62,10 +62,10 @@
     "allAccommodations": "Tous nos hébergements",
     "weddingsEvents": "Mariages & événements",
     "onlineBooking": "Réservation en ligne",
-    "footerAbout": "Ancienne propriété de famille transformée en domaine de vacances. Accueil personnalisé par William et Johanna."
+    "footerAbout": "Propriété de vacances avec gîtes et château. Accueil personnalisé sur place."
   },
   "hero": {
-    "location": "Saint-Just-Luzac, Charente-Maritime",
+    "location": "Ville, Région",
     "title": "Maisons de vacances",
     "titleHighlight": "en Charente-Maritime",
     "subtitle": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique.",
@@ -112,7 +112,7 @@
   "about": {
     "sectionLabel": "Notre histoire",
     "title": "Une propriété de famille, un accueil personnel",
-    "p1": "Le Domaine de Roche est notre ancienne propriété de famille en Charente-Maritime, transformée petit à petit en domaine de vacances. On y vit avec Johanna et on s'occupe nous-mêmes de l'accueil.",
+    "p1": "Le domaine est une propriété familiale transformée en location de vacances. Les propriétaires accueillent personnellement chaque visiteur et restent disponibles tout au long du séjour.",
     "p2": "Le domaine se compose d'un château et de 8 gîtes indépendants, tous regroupés dans un grand parc clos de murs de 13 000 m², à 5 à 50 mètres les uns des autres. Pratique pour les groupes qui veulent réserver plusieurs gîtes côte à côte.",
     "p3": "En tout, le domaine accueille jusqu'à 61 personnes côté gîtes seuls, le château privé en plus, pour 9 hébergements au total.",
     "parkSize": "13 000 m²",
@@ -306,39 +306,27 @@
     "seeAllGoogle": "Voir tous nos avis sur Google",
     "items": [
       {
-        "name": "Yoann Kabas",
-        "date": "Janvier 2025",
-        "text": "Séjour absolument parfait ! Accueillis avec chaleur et professionnalisme par William et Johanna. Le cadre est splendide : grand parc verdoyant, espaces de jeux sécurisés pour les enfants. Le château est très bien équipé, propre et confortable. Nous recommandons vivement !",
+        "name": "Prénom N.",
+        "date": "Mois 2025",
+        "text": "Séjour parfait ! Accueil chaleureux et professionnel. Le cadre est splendide : grand parc verdoyant, espaces de jeux pour les enfants. Le château est bien équipé, propre et confortable. Nous recommandons vivement.",
         "source": "Google"
       },
       {
-        "name": "Sarah Haoussine",
-        "date": "Janvier 2025",
-        "text": "Venus en plein hiver et nos hôtes ont été au top. Charme du poêle avec DIY de la part de William.",
+        "name": "Prénom P.",
+        "date": "Mois 2025",
+        "text": "Week-end en famille réussi. Logement authentique, beaux espaces et accueil attentionné. Plages et visites à proximité.",
         "source": "Google"
       },
       {
-        "name": "Valentine Foret-Bruno",
-        "date": "Octobre 2025",
-        "text": "Grande maison agréable et authentique ! De beaux espaces pour un week-end en famille à 15 ! De très belles plages à 20 minutes. Un accueil chaleureux.",
+        "name": "Prénom L.",
+        "date": "Mois 2025",
+        "text": "Séjour de quelques jours dans un lieu magnifique. Idéal pour découvrir la région. On recommande.",
         "source": "Google"
       },
       {
-        "name": "Aurélie Capdevielle",
-        "date": "Octobre 2025",
-        "text": "Séjour de 4 jours enchanteur dans un lieu magnifique ! Le château est central pour visiter la région : marais, île d'Oléron, ostréiculture. On recommande vivement.",
-        "source": "Google"
-      },
-      {
-        "name": "Pascale Beauchamps",
-        "date": "Novembre 2025",
-        "text": "Weekend familial super dans ce château qui a accueilli toute notre famille de 13 personnes. Confort, grandeur des espaces et cadre magnifique.",
-        "source": "Google"
-      },
-      {
-        "name": "Florence",
-        "date": "Octobre 2025",
-        "text": "Séjour très agréable dans un gîte tout confort au milieu d'un très joli parc arboré et clos. Idéal pour les familles et les animaux de compagnie.",
+        "name": "Prénom M.",
+        "date": "Mois 2025",
+        "text": "Week-end familial super : confort, grands espaces et cadre agréable. Parfait pour un groupe.",
         "source": "Google"
       }
     ]
@@ -350,7 +338,7 @@
     "items": [
       {
         "question": "Comment accéder au Domaine de Roche ?",
-        "answer": "Le domaine se situe à Saint-Just-Luzac (17320), en Charente-Maritime. En voiture : 25 min de Rochefort, 35 min de La Rochelle, 20 min de Royan. En train : gare TGV de La Rochelle (35 min) ou gare de Rochefort (25 min). En avion : aéroport de La Rochelle – Île de Ré (35 min). Un parking gratuit pour plus de 20 véhicules est disponible sur place."
+        "answer": "Le domaine se situe à Ville (00000), en Région. Accès en voiture, train ou avion selon votre provenance. Un parking est disponible sur place."
       },
       {
         "question": "Qu'est-ce qui est inclus dans le tarif ?",
@@ -392,7 +380,7 @@
   },
   "cta": {
     "title": "Prêt pour vos prochaines vacances ?",
-    "subtitle": "Réservez en ligne ou contactez William et Johanna pour un devis personnalisé groupe ou événement.",
+    "subtitle": "Réservez en ligne ou contactez-nous pour un devis personnalisé groupe ou événement.",
     "bookOnline": "Réserver en ligne",
     "requestQuote": "Demander un devis"
   },
@@ -406,8 +394,8 @@
     "facilitiesp1": "Les installations sur place comprennent une aire de jeux pour enfants avec fort en bois, bac à sable, balançoires, jeux, filet de badminton et terrain de football.",
     "facilitiesp2": "La propriété est entièrement clôturée, garantissant la sécurité des enfants pendant que les parents se détendent. Une connexion Wi-Fi rapide et fiable est disponible dans tout l'établissement.",
     "facilitiesp3": "Le Domaine de Roche est proche de villes pittoresques comme La Rochelle, Rochefort, Royan, Saintes et Saint-Palais-sur-Mer, toutes facilement accessibles en voiture.",
-    "hostsTitle": "William & Johanna",
-    "hostsText": "Nous habitons sur place et assurons nous-mêmes l'accueil de nos visiteurs. À votre arrivée, nous vous faisons visiter le domaine et restons disponibles tout au long de votre séjour pour répondre à vos questions."
+    "hostsTitle": "Prénom & Nom",
+    "hostsText": "Les propriétaires habitent sur place et assurent l'accueil des visiteurs. À l'arrivée, visite du domaine et disponibilité tout au long du séjour."
   },
   "events": {
     "heroLabel": "Événements",
@@ -424,7 +412,7 @@
       "Parking gratuit pour plus de 20 véhicules"
     ],
     "quoteTitle": "Devis sur mesure",
-    "quoteText": "Chaque événement est unique. Contactez William et Johanna pour discuter de votre projet et recevoir une proposition adaptée à vos besoins.",
+    "quoteText": "Chaque événement est unique. Contactez-nous pour discuter de votre projet et recevoir une proposition adaptée à vos besoins.",
     "types": {
       "wedding": {
         "title": "Mariages",
@@ -446,19 +434,19 @@
   },
   "contact": {
     "title": "Parlons de votre séjour",
-    "subtitle": "Une question, un devis groupe ou un projet d'événement ? William et Johanna vous répondent personnellement.",
-    "hostsTitle": "William & Johanna",
-    "hostsText": "Nous habitons sur le domaine et assurons l'accueil de tous nos visiteurs. N'hésitez pas à nous appeler directement.",
+    "subtitle": "Une question, un devis groupe ou un projet d'événement ? Nous vous répondons personnellement.",
+    "hostsTitle": "Prénom & Nom",
+    "hostsText": "Les propriétaires habitent sur le domaine et assurent l'accueil. N'hésitez pas à nous appeler directement.",
     "formTitle": "Envoyez-nous un message",
     "formSent": "WhatsApp va s'ouvrir avec votre message. Merci — nous vous répondrons rapidement."
   },
   "reservation": {
     "title": "Réservez votre séjour",
-    "subtitle": "Envoyez-nous votre demande de réservation. William et Johanna vous répondront rapidement pour confirmer les disponibilités.",
+    "subtitle": "Envoyez-nous votre demande de réservation. Nous vous répondrons rapidement pour confirmer les disponibilités.",
     "cardTitle": "Demande de réservation",
     "cardText": "Paiement en 3 fois · Annulation flexible · Réponse sous 24 h",
     "formIntro": "Remplissez le formulaire ci-dessous et nous vous recontacterons pour confirmer votre séjour.",
-    "preferPhone": "Vous préférez réserver par téléphone ou avez un projet groupe ? Contactez William au",
+    "preferPhone": "Vous préférez réserver par téléphone ou avez un projet groupe ? Contactez-nous au",
     "accommodationLabel": "Hébergement souhaité",
     "arrivalLabel": "Date d'arrivée",
     "departureLabel": "Date de départ",
@@ -471,7 +459,7 @@
       "sections": [
         {
           "title": "Éditeur du site",
-          "content": "Domaine de Roche\nDomaine de Roche\n17320 Saint-Just-Luzac\nSite : https://domainederoche.vercel.app\nTéléphone : +33 7 66 38 46 44"
+          "content": "Raison sociale : Domaine de Roche\nReprésentant : Prénom Nom\n123 rue Exemple\n00000 Ville\nSite : https://domainederoche.vercel.app\nTéléphone : +33 6 00 00 00 00"
         },
         {
           "title": "Hébergement",
@@ -500,7 +488,7 @@
         },
         {
           "title": "Vos droits",
-          "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous via https://domainederoche.vercel.app/fr/contact ou par téléphone au +33 7 66 38 46 44."
+          "content": "Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits, contactez-nous via https://domainederoche.vercel.app/fr/contact ou par téléphone au +33 6 00 00 00 00."
         }
       ]
     }
