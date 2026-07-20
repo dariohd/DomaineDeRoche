@@ -72,9 +72,11 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           <DemoBanner />
-          <Header />
-          <main>{children}</main>
-          <Footer />
+          <div className="pt-[var(--demo-banner-h)]">
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </div>
           <a
             href={siteConfig.whatsapp}
             target="_blank"

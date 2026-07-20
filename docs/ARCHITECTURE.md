@@ -1,5 +1,7 @@
 # Notes techniques
 
+**DEMO TEMPLATE** (Bulle ton site) — pas un site client réel. Bannière persistante via `DemoBanner` + clés `demo` / `metadata.demoSuffix` dans `messages/`.
+
 Site Next.js 16 (App Router), TypeScript, Tailwind 4. Contenu FR/EN via next-intl : routes sous `src/app/[locale]/`, textes dans `messages/fr.json` et `messages/en.json`.
 
 ## i18n

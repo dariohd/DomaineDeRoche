@@ -8,6 +8,7 @@
 
 | | |
 |---|---|
+| **Statut** | DEMO TEMPLATE — pas un site client |
 | **Démo** | https://domainederoche.vercel.app |
 | **Dépôt GitHub** | [github.com/dariohd/DomaineDeRoche](https://github.com/dariohd/DomaineDeRoche) |
 | **Notes techniques** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
