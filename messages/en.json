@@ -1,8 +1,13 @@
 {
   "metadata": {
     "siteName": "Domaine de Roche",
-    "tagline": "Holiday Cottages & Château in Charente-Maritime",
-    "description": "Private château and 9 independent holiday cottages in a 13,000 m² enclosed park, 10 minutes from the Atlantic beaches. Personal on-site welcome."
+    "tagline": "Demo template · Cottages & Château",
+    "description": "Demonstration site (Bulle ton site template) - placeholders only. Sample holiday cottages & château showcase. Not a real client website.",
+    "demoSuffix": "Demo"
+  },
+  "demo": {
+    "label": "Demo site",
+    "detail": "Bulle ton site template · placeholders"
   },
   "nav": {
     "home": "Home",
@@ -68,7 +73,7 @@
     "location": "City, Region",
     "title": "Holiday homes",
     "titleHighlight": "in Charente-Maritime",
-    "subtitle": "Private château and 9 independent cottages in a 13,000 m² enclosed park, 10 minutes from the Atlantic beaches.",
+    "subtitle": "Demonstration template: château and cottages (placeholders). Sample showcase for a Charente-Maritime estate.",
     "bookStay": "Book your stay",
     "discoverAccommodations": "Discover our accommodations",
     "statAccommodations": "Accommodations",

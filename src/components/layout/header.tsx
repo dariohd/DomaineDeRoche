@@ -88,7 +88,8 @@ export function Header() {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+          "fixed left-0 right-0 z-50 transition-all duration-500",
+          "top-[var(--demo-banner-h)]",
           solid
             ? "glass border-b border-forest/5 py-3 shadow-sm"
             : "bg-transparent py-5",

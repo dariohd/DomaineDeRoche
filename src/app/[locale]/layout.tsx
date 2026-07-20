@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import { DemoBanner } from "@/components/layout/demo-banner";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { siteConfig } from "@/lib/data/site";
@@ -40,15 +41,15 @@ export async function generateMetadata({
 
   return {
     title: {
-      default: `${t("siteName")} – ${t("tagline")}`,
-      template: `%s | ${t("siteName")}`,
+      default: `${t("siteName")} · ${t("tagline")}`,
+      template: `%s | ${t("siteName")} · ${t("demoSuffix")}`,
     },
     description: t("description"),
     openGraph: {
-      title: t("siteName"),
+      title: `${t("siteName")} · ${t("tagline")}`,
       description: t("description"),
       url: siteConfig.url,
-      siteName: t("siteName"),
+      siteName: `${t("siteName")} (${t("demoSuffix")})`,
       locale: locale === "fr" ? "fr_FR" : "en_GB",
       type: "website",
     },
@@ -70,6 +71,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale} className={`${cormorant.variable} ${outfit.variable}`}>
       <body className="font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
+          <DemoBanner />
           <Header />
           <main>{children}</main>
           <Footer />

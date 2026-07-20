@@ -1,8 +1,13 @@
 {
   "metadata": {
     "siteName": "Domaine de Roche",
-    "tagline": "Gîtes & Château en Charente-Maritime",
-    "description": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique. Accueil personnalisé sur place."
+    "tagline": "Template démo · Gîtes & Château",
+    "description": "Site démonstration (template Bulle ton site) - placeholders uniquement. Exemple de vitrine gîtes & château. Pas un site client réel.",
+    "demoSuffix": "Démo"
+  },
+  "demo": {
+    "label": "Site démonstration",
+    "detail": "template Bulle ton site · placeholders"
   },
   "nav": {
     "home": "Accueil",
@@ -68,7 +73,7 @@
     "location": "Ville, Région",
     "title": "Maisons de vacances",
     "titleHighlight": "en Charente-Maritime",
-    "subtitle": "Château privatisé et 9 gîtes indépendants dans un parc clos de 13 000 m², à 10 minutes des plages de l'Atlantique.",
+    "subtitle": "Template de démonstration : château et gîtes (placeholders). Exemple de vitrine pour un domaine en Charente-Maritime.",
     "bookStay": "Réserver votre séjour",
     "discoverAccommodations": "Découvrir nos hébergements",
     "statAccommodations": "Hébergements",

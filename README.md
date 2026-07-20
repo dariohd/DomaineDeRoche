@@ -1,8 +1,10 @@
-# Domaine de Roche — template vitrine
+# Domaine de Roche · DEMO TEMPLATE
+
+> **Ce n'est pas un site client réel.** Site de démonstration / template Bulle ton site. Textes, photos, coordonnées et avis sont des placeholders.
 
 ![domainederoche.vercel.app](docs/screenshot.png)
 
-**Template Next.js** pour un domaine gîtes & château (démo Bulle ton site). Textes, coordonnées et avis sont des **placeholders** — à personnaliser dans `src/lib/data/site.ts` et `messages/`.
+**Template Next.js** pour un domaine gîtes & château (démo Bulle ton site). Une bannière persistante « Site démonstration » s’affiche sur toutes les pages. Contenu à personnaliser dans `src/lib/data/site.ts` et `messages/`.
 
 | | |
 |---|---|

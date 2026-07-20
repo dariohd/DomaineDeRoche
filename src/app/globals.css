@@ -12,6 +12,7 @@
   --gold: #c4a35a;
   --gold-light: #d4b872;
   --sand: #e8dfd0;
+  --demo-banner-h: 2.25rem;
 }
 
 @theme inline {
